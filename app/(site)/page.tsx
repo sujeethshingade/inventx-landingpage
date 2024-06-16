@@ -22,16 +22,16 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      <Feature />
-      <About />
-      <FeaturesTab />
-      <FunFact />
-      <Integration />
+      {/* <Feature /> */}
+      {/* <About /> */}
       <CTA />
+      {/* <FeaturesTab /> */}
+      {/* <FunFact /> */}
+      {/* <Integration /> */}
       <FAQ />
       <Testimonial />
-      <Pricing />
-      <Contact />
+      {/* <Pricing /> */}
+      {/* <Contact /> */}
       <Blog />
     </main>
   );
