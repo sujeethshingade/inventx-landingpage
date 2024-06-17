@@ -11,7 +11,7 @@ const Hero = () => {
 
   return (
     <>
-      <section className="overflow-hidden pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-46">
+      {/* <section className="overflow-hidden pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-46">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
             <div className=" md:w-1/2">
@@ -91,7 +91,34 @@ const Hero = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */
+      }
+      <div className="h-screen w-screen flex items-center justify-center overflow-x-hidden relative">
+      <div className="absolute inset-0 flex items-center justify-center">
+        <video className="absolute inset-0 w-full h-full object-cover" autoPlay loop muted>
+          <source src="/Videos/hero-video.mp4" type="video/mp4"/>
+            Your browser does not support the video tag.
+          </video>
+      </div>
+      <div className="absolute inset-0">
+          <div className="h-screen relative">
+            <div className="bg-white">
+             
+            </div>
+            <div className="absolute inset-0 flex flex-col justify-center items-center">
+              <div className="mt-10">
+                
+              </div>
+              <div className="mt-6">
+              
+              </div>
+            </div>
+        </div>
+        <div>
+          
+        </div>
+      </div>
+    </div>
     </>
   );
 };
