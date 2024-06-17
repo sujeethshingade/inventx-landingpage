@@ -1,6 +1,8 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
+import InventXText from "./InventXText";
+import Motto from "./motto";
 
 const Hero = () => {
   const [email, setEmail] = useState("");
@@ -93,32 +95,24 @@ const Hero = () => {
         </div>
       </section> */
       }
-      <div className="h-screen w-screen flex items-center justify-center overflow-x-hidden relative">
+      <div className="h-screen w-full flex items-center justify-center relative mt-16">
       <div className="absolute inset-0 flex items-center justify-center">
         <video className="absolute inset-0 w-full h-full object-cover" autoPlay loop muted>
           <source src="/Videos/hero-video.mp4" type="video/mp4"/>
             Your browser does not support the video tag.
           </video>
+         
       </div>
-      <div className="absolute inset-0">
-          <div className="h-screen relative">
-            <div className="bg-white">
-             
+      <div className="flex justify-center items-center">
+            <div>
+               <div><InventXText/></div>
+              <div><Motto/></div>
             </div>
-            <div className="absolute inset-0 flex flex-col justify-center items-center">
-              <div className="mt-10">
-                
-              </div>
-              <div className="mt-6">
-              
-              </div>
-            </div>
-        </div>
-        <div>
+           
+          </div>
           
-        </div>
+      
       </div>
-    </div>
     </>
   );
 };
