@@ -13,13 +13,12 @@ const FAQItem = ({ faqData }: { faqData: FaqData }) => {
     <>
       <div className="flex flex-col border-b border-stroke last-of-type:border-none dark:border-strokedark">
         <button
-          onClick={() => {
-            handleFaqToggle(id);
-          }}
-          className="flex cursor-pointer items-center justify-between px-6 py-5 text-metatitle3 font-medium text-black dark:text-white lg:px-9 lg:py-5.5"
+          onClick={() => handleFaqToggle(id)}
+          className={`flex cursor-pointer items-center justify-between px-6 py-5 font-medium text-black dark:text-white lg:px-9 lg:py-5.5 transition-colors duration-200 ${
+            activeFaq === id ? 'text-primary dark:text-primary' : 'hover:text-primary dark:hover:text-primary'
+          }`}
         >
           {quest}
-
           {activeFaq === id ? (
             <svg
               width="18"
@@ -49,8 +48,9 @@ const FAQItem = ({ faqData }: { faqData: FaqData }) => {
           )}
         </button>
         <p
-          className={`border-t border-stroke px-6 py-5 dark:border-strokedark lg:px-9 lg:py-7.5 ${activeFaq === id ? "block" : "hidden"
-            }`}
+          className={`border-t border-stroke px-6 py-5 dark:border-strokedark lg:px-9 lg:py-7.5 ${
+            activeFaq === id ? "block" : "hidden"
+          }`}
         >
           {ans}
         </p>
