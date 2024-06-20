@@ -125,3 +125,26 @@ pre {
 .active-tab {
   @apply bg-stroke text-black dark:bg-blackho dark:text-white;
 }
+
+.cursor {
+  width: 32px;
+  height: 32px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.title {
+  font-size: 2rem;
+  color: #000;
+  margin: 20px;
+}
+
+body {
+  cursor: none; 
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}

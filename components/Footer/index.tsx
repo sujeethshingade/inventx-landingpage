@@ -356,6 +356,7 @@ const Footer = () => {
           </div>
           {/* <!-- Footer Bottom --> */}
         </div>
+   
       </footer>
     </>
   );

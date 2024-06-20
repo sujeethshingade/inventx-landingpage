@@ -1,57 +1,67 @@
 export const products = [
     {
+<<<<<<< HEAD
       title: "Moonbeam",
+=======
+      title: "",
+>>>>>>> c3acd01b777063ceea26b0cd0b3a14b98512b853
       link: "",
       thumbnail:
-        "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
+        "https://aceternity.com/images/products/thumbnails/new/rogue.png",
+         
     },
     {
+<<<<<<< HEAD
       title: "Cursor",
+=======
+      title: "",
+>>>>>>> c3acd01b777063ceea26b0cd0b3a14b98512b853
       link: "",
       thumbnail:
-        "https://aceternity.com/images/products/thumbnails/new/cursor.png",
+        "https://aceternity.com/images/products/thumbnails/new/rogue.png",
+      
     },
     {
-      title: "Rogue",
-      link: "https://userogue.com",
+      title: "",
+      link: "",
       thumbnail:
         "https://aceternity.com/images/products/thumbnails/new/rogue.png",
     },
    
     {
-      title: "Editorially",
-      link: "https://editorially.org",
+      title: "",
+      link: "",
       thumbnail:
         "https://aceternity.com/images/products/thumbnails/new/editorially.png",
     },
     {
-      title: "Editrix AI",
-      link: "https://editrix.ai",
+      title: "",
+      link: "",
       thumbnail:
         "https://aceternity.com/images/products/thumbnails/new/editrix.png",
     },
     {
-      title: "Pixel Perfect",
-      link: "https://app.pixelperfect.quest",
+      title: "",
+      link: "",
       thumbnail:
         "https://aceternity.com/images/products/thumbnails/new/pixelperfect.png",
     },
    
     {
-      title: "Algochurn",
-      link: "https://algochurn.com",
+      title: "",
+      link: "",
       thumbnail:
         "https://aceternity.com/images/products/thumbnails/new/algochurn.png",
     },
     {
-      title: "Aceternity UI",
-      link: "https://ui.aceternity.com",
+      title: "",
+      link: "",
       thumbnail:
         "https://aceternity.com/images/products/thumbnails/new/aceternityui.png",
     },
     {
-      title: "Tailwind Master Kit",
-      link: "https://tailwindmasterkit.com",
+      title: "",
+      link: "",
       thumbnail:
         "https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
     },
