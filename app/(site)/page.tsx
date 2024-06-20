@@ -14,6 +14,7 @@ import Testimonial from "@/components/Testimonial";
 import { HeroSection } from "@/components/HeroSection/index";
 import { products } from "@/components/Data/ideas";
 import { Globe } from "@/components/Globe";
+import CustomCursor from '@/components/Common/CustomCursor';
 
 export const metadata: Metadata = {
   title: "InventX",
@@ -27,9 +28,11 @@ export default function Home() {
       <div className="p-8 md:p-14 lg:p-24"> 
         <HeroSection products={products}/>
       </div>
+      <CustomCursor />
       {/* <Feature /> */}
       {/* <About /> */}
       <Globe/>
+      {/* <CTA/> */}
       {/* <FeaturesTab /> */}
       {/* <FunFact /> */}
       {/* <Integration /> */}

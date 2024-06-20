@@ -7,6 +7,7 @@ import ScrollToTop from "@/components/ScrollToTop";
 import { ThemeProvider } from "next-themes";
 import { Inter } from "next/font/google";
 import "../globals.css";
+import CustomCursor from '@/components/Common/CustomCursor';
 const inter = Inter({ subsets: ["latin"] });
 
 import ToasterContext from "../context/ToastContext";
@@ -26,6 +27,7 @@ export default function RootLayout({
         >
           <Lines />
           <Header />
+          <CustomCursor />
           <ToasterContext />
           {children}
           <Footer />

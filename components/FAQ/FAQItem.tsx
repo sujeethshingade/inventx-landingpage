@@ -15,7 +15,7 @@ const FAQItem = ({ faqData }: { faqData: FaqData }) => {
         <button
           onClick={() => handleFaqToggle(id)}
           className={`flex cursor-pointer items-center justify-between px-6 py-5 font-medium text-black dark:text-white lg:px-9 lg:py-5.5 transition-colors duration-200 ${
-            activeFaq === id ? 'text-primary dark:text-primary' : 'hover:text-primary dark:hover:text-primary'
+            activeFaq === id ? 'text-primary dark:text-primaryho' : 'hover:text-primary dark:hover:text-primary'
           }`}
         >
           {quest}
