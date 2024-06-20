@@ -1,15 +1,17 @@
 export const products = [
     {
-      title: "Moonbeam",
+      title: "Cyber Security",
       link: "https://gomoonbeam.com",
       thumbnail:
-        "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
+        "https://aceternity.com/images/products/thumbnails/new/rogue.png",
+         
     },
     {
-      title: "Cursor",
+      title: "Data Science",
       link: "https://cursor.so",
       thumbnail:
-        "https://aceternity.com/images/products/thumbnails/new/cursor.png",
+        "https://aceternity.com/images/products/thumbnails/new/rogue.png",
+      
     },
     {
       title: "Rogue",

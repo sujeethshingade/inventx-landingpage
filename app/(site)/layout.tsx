@@ -11,6 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 import ToasterContext from "../context/ToastContext";
 
+
 export default function RootLayout({
   children,
 }: {
