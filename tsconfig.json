@@ -36,7 +36,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-  ],
+, "components/Common/CustomCursor.js"  ],
   "exclude": [
     "node_modules"
   ]
