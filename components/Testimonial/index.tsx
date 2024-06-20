@@ -20,7 +20,7 @@ const Testimonial = () => {
           <div className="animate_top mx-auto text-center">
             <SectionHeader
               headerInfo={{
-                title: `TESTIMONIALS`,
+                title: ``,
                 subtitle: `Testimonials`,
                 description: '',
               }}
