@@ -8,7 +8,8 @@ import CTA from "@/components/CTA";
 import FAQ from "@/components/FAQ";
 import Pricing from "@/components/Pricing";
 import Contact from "@/components/Contact";
-import Blog from "@/components/Blog";
+//import Blog from "@/components/Blog";
+import { ThreeDCardDemo } from "@/components/Blog/3d-effect";
 import Testimonial from "@/components/Testimonial";
 import { HeroSection } from "@/components/HeroSection/index";
 import { products } from "@/components/Data/ideas";
@@ -35,7 +36,9 @@ export default function Home() {
       <Testimonial />
       {/* <Pricing /> */}
       {/* <Contact /> */}
-      <Blog />
+      <ThreeDCardDemo/>
+      <ThreeDCardDemo/>
+      <ThreeDCardDemo/>
       <FAQ />
     </main>
   );
