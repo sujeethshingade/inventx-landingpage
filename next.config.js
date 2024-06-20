@@ -4,7 +4,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ["localhost","aceternity.com","images.unsplash.com"],
+    domains: ["localhost","aceternity.com","images.unsplash.com", "media.istockphoto.com"],
     remotePatterns: [
       {
         protocol: "https",

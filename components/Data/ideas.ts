@@ -1,13 +1,13 @@
 export const products = [
     {
       title: "Moonbeam",
-      link: "https://gomoonbeam.com",
+      link: "",
       thumbnail:
         "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
     },
     {
       title: "Cursor",
-      link: "https://cursor.so",
+      link: "",
       thumbnail:
         "https://aceternity.com/images/products/thumbnails/new/cursor.png",
     },

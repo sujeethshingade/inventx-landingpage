@@ -37,8 +37,6 @@ export default function Home() {
       {/* <Pricing /> */}
       {/* <Contact /> */}
       <ThreeDCardDemo/>
-      <ThreeDCardDemo/>
-      <ThreeDCardDemo/>
       <FAQ />
     </main>
   );
