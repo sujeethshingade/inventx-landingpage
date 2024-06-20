@@ -1,43 +1,11 @@
-import { Metadata } from "next";
-import Hero from "@/components/Hero";
-import Feature from "@/components/Features";
-import About from "@/components/About";
-import FeaturesTab from "@/components/FeaturesTab";
-import FunFact from "@/components/FunFact";
-import Integration from "@/components/Integration";
-import CTA from "@/components/CTA";
-import FAQ from "@/components/FAQ";
-import Pricing from "@/components/Pricing";
-import Contact from "@/components/Contact";
-import Blog from "@/components/Blog";
-import Testimonial from "@/components/Testimonial";
-import { HeroParallax } from "@/components/ui/HeroParallax";
-
-export const metadata: Metadata = {
-  title: "InventX",
-  description: "This is Landing Page for InventX",
-  // other metadata
-};
-
-export default function Home() {
-  return (
-    <main>
-      <HeroParallax products={products}/>
-      {/* <Feature /> */}
-      {/* <About /> */}
-      <CTA />
-      {/* <FeaturesTab /> */}
-      {/* <FunFact /> */}
-      {/* <Integration /> */}
-      <Testimonial />
-      {/* <Pricing /> */}
-      {/* <Contact /> */}
-      <Blog />
-      <FAQ />
-    </main>
-  );
+"use client";
+import React from "react";
+import Hero from "./index";
+ 
+export function HeroParallaxDemo() {
+  return <Hero products={products} />;
 }
-const products = [
+export const products = [
   {
     title: "Moonbeam",
     link: "https://gomoonbeam.com",
