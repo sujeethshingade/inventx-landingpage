@@ -1,21 +1,13 @@
 export const products = [
     {
-<<<<<<< HEAD
-      title: "Moonbeam",
-=======
       title: "",
->>>>>>> c3acd01b777063ceea26b0cd0b3a14b98512b853
       link: "",
       thumbnail:
         "https://aceternity.com/images/products/thumbnails/new/rogue.png",
          
     },
     {
-<<<<<<< HEAD
-      title: "Cursor",
-=======
       title: "",
->>>>>>> c3acd01b777063ceea26b0cd0b3a14b98512b853
       link: "",
       thumbnail:
         "https://aceternity.com/images/products/thumbnails/new/rogue.png",
