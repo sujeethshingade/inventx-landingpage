@@ -9,6 +9,8 @@ import {
 } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
+import { TypewriterEffect } from "./typewriter-effect";
+import { TextGenerateEffect } from "./text-effect";
 
 export const HeroSection = ({
   products,
@@ -57,7 +59,7 @@ export const HeroSection = ({
   return (
     <div
       ref={ref}
-      className="h-[300vh] py-40 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+      className="h-[250vh] py-40 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
     >
       <Header />
       <motion.div
@@ -101,18 +103,28 @@ export const HeroSection = ({
   );
 };
 
+const words = [
+  {
+    text: "InventX",
+    className: "text-green-500 dark:text-green-500"
+  }
+  
+];
+const quote ="Igniting the Spark of Innovation in GenZ"
+
 export const Header = () => {
   return (
     <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0">
       <h1 className="text-2xl md:text-7xl font-bold dark:text-white">
-        InventX  
+      <TypewriterEffect words={words}/>
       </h1>
-      <h3 className="text-xl md:text-5xl font-bold dark:text-white">Igniting the Spark of Innovation in GenZ</h3>
+      <div className="flex justify-center items-center">
+      <h3 className="text-xl md:text-5xl font-bold dark:text-white"> 
+        <TextGenerateEffect words={quote}/>
+      </h3>
+      </div>
       <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
-      At InventX, we believe in the power of youthful creativity and bold ideas. 
-      We're not just a platform; we're a movement fuelled by the ambition of RV 
-      institution students who are reimagining industries, solving global challenges, 
-      and shaping the future. Join us as we redefine innovation and investment in the digital age.
+     
       </p>
     </div>
   );

@@ -11,7 +11,7 @@ import Contact from "@/components/Contact";
 import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
 import { HeroSection } from "@/components/HeroSection/index";
-import { products } from "@/components/Data/product";
+import { products } from "@/components/Data/ideas";
 import { Globe } from "@/components/Globe";
 
 export const metadata: Metadata = {
@@ -23,7 +23,9 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main>
-      <HeroSection products={products}/>
+      <div className="p-8 md:p-14 lg:p-24"> 
+        <HeroSection products={products}/>
+      </div>
       {/* <Feature /> */}
       {/* <About /> */}
       <Globe/>
