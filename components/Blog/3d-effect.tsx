@@ -27,7 +27,7 @@ export function ThreeDCardDemo() {
           </CardItem>
           <CardItem translateZ="100" className="w-full mt-4">
             <Image
-              src="https://media.istockphoto.com/id/877033744/photo/young-students-of-chemistry-working-in-laboratory.webp?b=1&s=170667a&w=0&k=20&c=S1ajwJ3WZIC8MVAWmV8XiuWnluuSIXOIQlPp4ajPkdI="
+              src="/images/blog/blog1.jpg"
               height="1000"
               width="1000"
               className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
@@ -71,7 +71,7 @@ export function ThreeDCardDemo() {
           </CardItem>
           <CardItem translateZ="100" className="w-full mt-4">
             <Image
-              src="https://media.istockphoto.com/id/2035601113/photo/cybersecurity-innovations-concept-engineer-computer-working-with-laptop-computer-show-pad.webp?b=1&s=170667a&w=0&k=20&c=xsLj3uErlRFbAIFWFQtGXJkobGgJ0OL9er1nhFIsikk="
+              src="/images/blog/blog2.jpg"
               height="1000"
               width="1000"
               className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
@@ -115,7 +115,7 @@ export function ThreeDCardDemo() {
           </CardItem>
           <CardItem translateZ="100" className="w-full mt-4">
             <Image
-              src="https://images.unsplash.com/photo-1677756119517-756a188d2d94?q=80&w=2050&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src="/images/blog/blog3.jpg"
               height="1000"
               width="1000"
               className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"

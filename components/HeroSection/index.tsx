@@ -11,6 +11,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { TypewriterEffect } from "./typewriter-effect";
 import { TextGenerateEffect } from "./text-effect";
+import { SparklesCore } from "./hero-text";
+// import HeroText from "./hero-text";
 
 export const HeroSection = ({
   products,
@@ -103,26 +105,48 @@ export const HeroSection = ({
   );
 };
 
-const words = [
-  {
-    text: "InventX",
-    className: "text-green-500 dark:text-green-500"
-  }
-  
-];
 const quote ="Igniting the Spark of Innovation in GenZ"
 
 export const Header = () => {
   return (
-    <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0">
-      <h1 className="text-2xl md:text-7xl font-bold dark:text-white">
-      <TypewriterEffect words={words}/>
-      </h1>
-      <div className="flex justify-center items-center">
-      <h3 className="text-xl md:text-5xl font-bold dark:text-white"> 
-        <TextGenerateEffect words={quote}/>
-      </h3>
+      <div className="max-w-7xl relative mx-auto py-10 md:py-10 px-4 w-full left-0 top-0">
+        <div className="flex justify-center items-center">
+            <div className="font-bold dark:text-white"> 
+              <TextGenerateEffect words={quote}/>
+            </div>
+        </div>
+        <div className="h-[20rem] w-full flex flex-col items-center justify-center overflow-hidden rounded-md">
+        <div className="flex justify-center items-center">
+          <h1 className="md:text-6xl text-4xl lg:text-8xl font-bold text-center dark:text-white text-black relative z-20">
+            Invent
+          </h1>
+          <h1 className="md:text-7xl text-5xl lg:text-9xl font-bold text-center relative z-20 text-green-500">
+            X
+          </h1>
+        </div>
+        
+        <div className="w-[40rem] h-40 relative">
+          <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
+          <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />
+          <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-[5px] w-1/4 blur-sm" />
+          <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px w-1/4" />
+          
+          <SparklesCore
+            background="transparent"
+            minSize={0.4}
+            maxSize={1}
+            particleDensity={1500}
+            className="w-full h-full"
+            particleColor="#FFFFFF"
+          />
+          
+          <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
+          
+        </div>
+        
+        
       </div>
+      
       <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
      
       </p>
