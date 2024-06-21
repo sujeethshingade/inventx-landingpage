@@ -1,6 +1,7 @@
 import { useTheme } from "next-themes";
 import Image from "next/image";
 
+
 const ThemeToggler = () => {
   const { theme, setTheme } = useTheme();
 

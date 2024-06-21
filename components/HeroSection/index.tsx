@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import { useTheme } from "next-themes";
 import {
   motion,
   useScroll,
@@ -108,6 +109,8 @@ export const HeroSection = ({
 const quote ="Igniting the Spark of Innovation in GenZ"
 
 export const Header = () => {
+  const { theme, setTheme } = useTheme();
+  const particleColor = theme === 'light' ? '#000000' : '#FFFFFF'; 
   return (
       <div className="max-w-7xl relative mx-auto py-10 md:py-10 px-4 w-full left-0 top-0">
         <div className="flex justify-center items-center">
@@ -137,10 +140,10 @@ export const Header = () => {
             maxSize={1}
             particleDensity={1500}
             className="w-full h-full"
-            particleColor="#FFFFFF"
+            particleColor={particleColor}
           />
           
-          <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
+          <div className="absolute inset-0 w-full h-full bg-white dark:bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
           
         </div>
         
