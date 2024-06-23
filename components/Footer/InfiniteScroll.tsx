@@ -35,7 +35,8 @@ const ScrollTitle = styled.div`
   }
   h1 {
     margin: 0;
-    font-size: 140px;
+    font-size: 75px;
+    font-style:bold;
     color: rgba(0, 0, 0, 1);
     transition: all 10s ease;
   }
@@ -55,10 +56,10 @@ const InfiniteScrollText = () => {
       <ScrollTitle>
         <div>
           <h1>
-            <a href="">Think</a> <a href="">Innovate</a><a href=""> & </a><a href="">Conquer. </a>&nbsp;
+            <a href="">Think,</a> <a href="">Innovate</a><a href=""> & </a><a href="">Conquer. </a>&nbsp;
           </h1>
           <h1>
-            <a href="">Think</a> <a href="">Innovate</a><a href=""> & </a><a href="">Conquer. </a>&nbsp;
+            <a href="">Think,</a> <a href="">Innovate</a><a href=""> & </a><a href="">Conquer. </a>&nbsp;
           </h1>
         </div>
       </ScrollTitle>
