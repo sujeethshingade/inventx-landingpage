@@ -151,7 +151,7 @@ const Footer = () => {
                   </ul>
                 </motion.div>
 
-                <motion.div
+                { /* <motion.div
                   variants={{
                     hidden: {
                       opacity: 0,
@@ -181,7 +181,7 @@ const Footer = () => {
                       <input
                         type="text"
                         placeholder="Email address"
-                        className="sharp-full border border-stroke px-6 py-2 shadow-solid-11 focus:border-primary focus:outline-none dark:border-strokedark dark:bg-black dark:shadow-none dark:focus:border-primary"
+                        className="rounded-full border border-stroke px-6 py-3 shadow-solid-11 focus:border-primary focus:outline-none dark:border-strokedark dark:bg-black dark:shadow-none dark:focus:border-primary"
                       />
 
                       <button
@@ -211,7 +211,7 @@ const Footer = () => {
                       </button>
                     </div>
                   </form>
-                </motion.div>
+                </motion.div> */}
               </div>
             </div>
           </div>
