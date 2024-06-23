@@ -12,7 +12,7 @@ const ScrollContainer = styled.div`
   width: 100vw;
   height: 35vh;
   margin: auto;
-  background-color: white;
+  background-color: transparent;
   overflow: hidden;
   z-index: 1;
 `;
