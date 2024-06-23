@@ -10,7 +10,6 @@ import {
 } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import { TypewriterEffect } from "./typewriter-effect";
 import { TextGenerateEffect } from "./text-effect";
 import { SparklesCore } from "./hero-text";
 // import HeroText from "./hero-text";
@@ -113,13 +112,13 @@ export const Header = () => {
   const particleColor = theme === 'light' ? '#000000' : '#FFFFFF'; 
   return (
       <div className="max-w-7xl relative mx-auto py-10 md:py-10 px-4 w-full left-0 top-0">
-        <div className="flex justify-center items-center">
-            <div className="font-bold dark:text-white"> 
+        <div className="flex justify-center items-center mt-28">
+            <div className="font-dark text-black dark:text-white"> 
               <TextGenerateEffect words={quote}/>
             </div>
         </div>
         <div className="h-[20rem] w-full flex flex-col items-center justify-center overflow-hidden rounded-md">
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center mt-10">
           <h1 className="md:text-6xl text-4xl lg:text-8xl font-bold text-center dark:text-white text-black relative z-20">
             Invent
           </h1>

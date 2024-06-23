@@ -25,21 +25,27 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main>
-      <div className="p-8 md:p-14 lg:p-24"> 
+      <div className=""> 
         <HeroSection products={products}/>
       </div>
       <CustomCursor />
       {/* <Feature /> */}
       {/* <About /> */}
+      <div className="p-10 md:p-16 lg:p-28"> 
       <Globe/>
+      </div>
       {/* <CTA/> */}
       {/* <FeaturesTab /> */}
       {/* <FunFact /> */}
       {/* <Integration /> */}
+      <div className="p-8 md:p-14 lg:p-24"> 
       <Testimonial />
+      </div>
       {/* <Pricing /> */}
       {/* <Contact /> */}
+      <div className="p-8 md:p-14 lg:p-24"> 
       <ThreeDCardDemo/>
+      </div>
       <FAQ />
     </main>
   );

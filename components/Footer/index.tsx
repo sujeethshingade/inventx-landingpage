@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import InfiniteScrollText from "./InfiniteScroll";
 
 const Footer = () => {
   return (
@@ -431,6 +432,9 @@ const Footer = () => {
           {/* <!-- Footer Bottom --> */}
         </div>
       </footer>
+      <InfiniteScrollText/>
+      
+
     </>
   );
 };
