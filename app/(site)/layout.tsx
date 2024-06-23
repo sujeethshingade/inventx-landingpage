@@ -12,6 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 import ToasterContext from "../context/ToastContext";
 import { TracingBeam } from "@/components/Tracing-beam/tracing";
+import { GridSmallBackground } from "@/components/Background";
 
 
 export default function RootLayout({
@@ -21,15 +22,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-  
-      <body className={`dark:bg-black ${inter.className}`}>
       
+      <body className={`dark:bg-black ${inter.className}`}>
+      <GridSmallBackground>
+
         <ThemeProvider
           enableSystem={false}
           attribute="class"
           defaultTheme="dark"
         >
-          {/* <Lines /> */}
           <Header />
           <CustomCursor />
           
@@ -38,7 +39,7 @@ export default function RootLayout({
           <Footer />
           <ScrollToTop />
         </ThemeProvider>
-       
+      </GridSmallBackground>
       </body>
       
     </html>
