@@ -35,7 +35,7 @@ const Header = () => {
         }`}
     >
       <div className="relative mx-auto w-full items-center justify-between xl:flex 2xl:px-0 bg-white">
-        <div className="flex w-full items-center justify-between xl:w-1/2 h-16">
+        <div className="flex w-full items-center justify-between xl:w-1/2 h-14 px-14">
           <a href="/">
             <Image
               src="/images/logo/logo-dark.svg"
@@ -86,10 +86,8 @@ const Header = () => {
               </span>
             </span>
           </button>
-          {/* <!-- Hamburger Toggle BTN --> */}
         </div>
 
-        {/* Nav Menu Start   */}
         <div
           className={`invisible h-0 w-full items-center justify-between xl:visible xl:flex xl:h-auto xl:w-full ${navigationOpen &&
             "navbar !visible mt-4 h-auto max-h-[400px] rounded-md bg-white p-7.5 shadow-solid-5 dark:bg-blacksection xl:h-auto xl:p-0 xl:shadow-none xl:dark:bg-transparent"

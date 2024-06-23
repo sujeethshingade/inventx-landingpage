@@ -2,8 +2,8 @@ import React from 'react';
 import styled, { keyframes } from 'styled-components';
 
 const scrollText = keyframes`
-  from { transform: translateX(0%); }
-  to { transform: translateX(-50%); }
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
 `;
 
 const ScrollContainer = styled.div`
@@ -24,21 +24,19 @@ const ScrollTitle = styled.div`
   left: 0;
   align-items: center;
   justify-content: flex-start;
-  width: 100%;
+  width: 200%; /* Adjusted to accommodate two sets of text */
   height: 100%;
   white-space: nowrap;
   transform: scale(2);
-  transition: all 2s ease;
   & > div {
     display: flex;
-    animation: ${scrollText} 33s infinite linear;
+    animation: ${scrollText} 80s infinite linear;
   }
   h1 {
     margin: 0;
     font-size: 75px;
-    font-style:bold;
+    font-style: bold;
     color: rgba(0, 0, 0, 1);
-    transition: all 10s ease;
   }
   a {
     text-decoration: none;
@@ -55,6 +53,12 @@ const InfiniteScrollText = () => {
     <ScrollContainer>
       <ScrollTitle>
         <div>
+          <h1>
+            <a href="">Think,</a> <a href="">Innovate</a><a href=""> & </a><a href="">Conquer. </a>&nbsp;
+          </h1>
+          <h1>
+            <a href="">Think,</a> <a href="">Innovate</a><a href=""> & </a><a href="">Conquer. </a>&nbsp;
+          </h1>
           <h1>
             <a href="">Think,</a> <a href="">Innovate</a><a href=""> & </a><a href="">Conquer. </a>&nbsp;
           </h1>

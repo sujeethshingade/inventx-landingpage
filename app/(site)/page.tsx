@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main>
-      <div className="p-8 md:p-14 lg:p-24"> 
+      <div className=""> 
         <HeroSection products={products}/>
       </div>
       <CustomCursor />
