@@ -36,14 +36,16 @@ const ScrollTitle = styled.div`
     margin: 0;
     font-size: 75px;
     font-style: bold;
+    font-family: Calibri (Body);
+    font-weight: 700;
     color: rgba(0, 0, 0, 1);
   }
   a {
     text-decoration: none;
-    color: black;
+    color: #D2D4D3;
   }
   a:hover {
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 1px #D2D4D3;
     color: transparent;
   }
 `;
@@ -54,16 +56,16 @@ const InfiniteScrollText = () => {
       <ScrollTitle>
         <div>
           <h1>
-            <a href="">Think,</a> <a href="">Innovate</a><a href=""> & </a><a href="">Conquer. </a>&nbsp;
+            <a href="">Think,</a> <a href="">Innovate</a><a href=""> & </a><a href="">Conquer.</a>&nbsp;
           </h1>
           <h1>
-            <a href="">Think,</a> <a href="">Innovate</a><a href=""> & </a><a href="">Conquer. </a>&nbsp;
+            <a href="">Think,</a> <a href="">Innovate</a><a href=""> & </a><a href="">Conquer.</a>&nbsp;
           </h1>
           <h1>
-            <a href="">Think,</a> <a href="">Innovate</a><a href=""> & </a><a href="">Conquer. </a>&nbsp;
+            <a href="">Think,</a> <a href="">Innovate</a><a href=""> & </a><a href="">Conquer.</a>&nbsp;
           </h1>
           <h1>
-            <a href="">Think,</a> <a href="">Innovate</a><a href=""> & </a><a href="">Conquer. </a>&nbsp;
+            <a href="">Think,</a> <a href="">Innovate</a><a href=""> & </a><a href="">Conquer.</a>&nbsp;
           </h1>
         </div>
       </ScrollTitle>
