@@ -11,6 +11,7 @@ import CustomCursor from '@/components/Common/CustomCursor';
 const inter = Inter({ subsets: ["latin"] });
 
 import ToasterContext from "../context/ToastContext";
+import { TracingBeam } from "@/components/Tracing-beam/tracing";
 
 
 export default function RootLayout({
@@ -20,21 +21,26 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+  
       <body className={`dark:bg-black ${inter.className}`}>
+      
         <ThemeProvider
           enableSystem={false}
           attribute="class"
           defaultTheme="light"
         >
-          <Lines />
+          {/* <Lines /> */}
           <Header />
           <CustomCursor />
+          
           <ToasterContext />
           {children}
           <Footer />
           <ScrollToTop />
         </ThemeProvider>
+       
       </body>
+      
     </html>
   );
 }
