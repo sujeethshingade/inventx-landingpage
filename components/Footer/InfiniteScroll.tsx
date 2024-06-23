@@ -31,7 +31,7 @@ const ScrollTitle = styled.div`
   transition: all 2s ease;
   & > div {
     display: flex;
-    animation: ${scrollText} 39s infinite linear;
+    animation: ${scrollText} 33s infinite linear;
   }
   h1 {
     margin: 0;

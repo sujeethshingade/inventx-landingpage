@@ -28,28 +28,28 @@ const Header = () => {
   });
 
   return (
-    <header
-      className={`fixed left-0 top-0 z-99999 w-full py-3 ${stickyMenu
+    <header 
+      className={`fixed left-0 top-0 z-99999 w-full ${stickyMenu
         ? "bg-white !py-1 shadow transition duration-100 dark:bg-black"
         : ""
         }`}
     >
-      <div className="relative mx-auto max-w-c-1390 items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0">
-        <div className="flex w-full items-center justify-between xl:w-1/2">
+      <div className="relative mx-auto w-full items-center justify-between xl:flex 2xl:px-0 bg-white">
+        <div className="flex w-full items-center justify-between xl:w-1/2 h-16">
           <a href="/">
             <Image
               src="/images/logo/logo-dark.svg"
               alt="logo"
-              width={119.03}
-              height={30}
+              width={10}
+              height={2}
               className="hidden w-full dark:block"
             />
             <Image
               src="/images/logo/logo-light.svg"
               alt="logo"
-              width={119.03}
-              height={30}
-              className="w-full dark:hidden"
+              width={20.03}
+              height={2}
+              className="w-full dark:hidden h-16"
             />
           </a>
 
@@ -132,7 +132,7 @@ const Header = () => {
                       href={`${menuItem.path}`}
                       className={
                         pathUrl === menuItem.path
-                          ? "text-primary hover:text-primary"
+                          ? "text-waterloo hover:text-black"
                           : "hover:text-primary"
                       }
                     >
@@ -144,19 +144,19 @@ const Header = () => {
             </ul>
           </nav>
 
-          <div className="mt-7 flex items-center gap-6 xl:mt-0">
+          <div className="mt-7 flex items-center gap-6 xl:mt-0 px-25">
             <ThemeToggler />
 
             <Link
               href="index.html"
-              className="text-regular font-medium text-waterloo hover:text-primary"
+              className="text-regular font-medium text-waterloo hover:text-black"
             >
               Sign Up
             </Link>
 
             <Link
               href="index.html"
-              className="flex items-center justify-center rounded-full bg-primary px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:bg-primaryho"
+              className="flex items-center justify-center rounded-full bg-primary px-5 py-1 text-regular text-white duration-300 ease-in-out hover:bg-primaryho"
             >
               Login
             </Link>

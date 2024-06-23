@@ -39,7 +39,7 @@ module.exports = {
         primary: "#21B166",
         primaryho: "#21B166",
         meta: "#20C5A8",
-        waterloo: "#757693",
+        waterloo: "#6B7280",
         manatee: "#999AA1",
         alabaster: "#FBFBFB",
         zumthor: "#EDF5FF",
