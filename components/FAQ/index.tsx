@@ -44,7 +44,7 @@ const FAQ = () => {
               viewport={{ once: true }}
               className="w-full max-w-4xl"
             >
-              <div className="bg-white shadow-solid-8 dark:border dark:border-strokedark dark:bg-blacksection">
+              <div className="bg-white shadow-solid-8 dark:border dark:border-strokedark dark:bg-blacksection rounded-lg"> {/* <-- Added rounded-lg here */}
                 {faqData.map((faq, key) => (
                   <FAQItem
                     key={key}
