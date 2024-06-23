@@ -10,7 +10,6 @@ import {
 } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import { TypewriterEffect } from "./typewriter-effect";
 import { TextGenerateEffect } from "./text-effect";
 import { SparklesCore } from "./hero-text";
 // import HeroText from "./hero-text";
