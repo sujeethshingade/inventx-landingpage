@@ -12,7 +12,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { TextGenerateEffect } from "./text-effect";
 import { SparklesCore } from "./hero-text";
-// import HeroText from "./hero-text";
 
 export const HeroSection = ({
   products,

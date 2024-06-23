@@ -6,7 +6,7 @@ import InfiniteScrollText from "./InfiniteScroll";
 const Footer = () => {
   return (
     <>
-      <footer className="border-t border-stroke bg-white dark:border-strokedark dark:bg-blacksection mx-40">
+      <footer className="border border-stroke bg-white dark:border-strokedark dark:bg-blacksection mx-60">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           {/* <!-- Footer Top --> */}
           <div className="py-10 lg:py-5">
@@ -360,7 +360,9 @@ const Footer = () => {
         
    
       </footer>
-      <InfiniteScrollText/>
+      <div className="">
+        <InfiniteScrollText/>
+      </div>
       
 
     </>
