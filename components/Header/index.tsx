@@ -29,31 +29,32 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed left-0 top-0 z-99999 w-full py-3 ${stickyMenu
+      className={`fixed left-0 top-0 z-99999 w-full py-1 ${stickyMenu
         ? "bg-white !py-1 shadow transition duration-100 dark:bg-black"
         : ""
         }`}
     >
-      <div className="relative mx-auto max-w-c-1390 items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0">
-        <div className="flex w-full items-center justify-between xl:w-1/2">
+      <div className="relative mx-auto flex max-w-c-1390 items-center justify-between px-4 md:px-25 2xl:px-0">
+        {/* Logo Section */}
+        <div className="flex items-center xl:w-1/4">
           <a href="/">
             <Image
               src="/images/logo/logo-dark.svg"
               alt="logo"
-              width={119.03}
-              height={30}
-              className="hidden w-full dark:block"
+              width={500}
+              height={120}
+              className="hidden dark:block"
             />
             <Image
               src="/images/logo/logo-light.svg"
               alt="logo"
-              width={119.03}
-              height={30}
-              className="w-full dark:hidden"
+              width={500}
+              height={120}
+              className="dark:hidden"
             />
           </a>
 
-          {/* <!-- Hamburger Toggle BTN --> */}
+          {/* Hamburger Toggle BTN */}
           <button
             aria-label="hamburger Toggler"
             className="block xl:hidden"
@@ -89,11 +90,12 @@ const Header = () => {
           {/* <!-- Hamburger Toggle BTN --> */}
         </div>
 
-        {/* Nav Menu Start   */}
+        {/* Nav Menu Start */}
         <div
-          className={`invisible h-0 w-full items-center justify-between xl:visible xl:flex xl:h-auto xl:w-full ${navigationOpen &&
-            "navbar !visible mt-4 h-auto max-h-[400px] rounded-md bg-white p-7.5 shadow-solid-5 dark:bg-blacksection xl:h-auto xl:p-0 xl:shadow-none xl:dark:bg-transparent"
-            }`}
+          className={`${navigationOpen
+            ? "navbar !visible mt-4 h-auto max-h-[400px] rounded-md bg-white p-7.5 shadow-solid-5 dark:bg-black xl:h-auto xl:p-0 xl:shadow-none xl:dark:bg-transparent"
+            : "hidden xl:flex"
+            } xl:flex-grow xl:justify-center`}
         >
           <nav>
             <ul className="flex flex-col gap-5 xl:flex-row xl:items-center xl:gap-10">
@@ -132,7 +134,7 @@ const Header = () => {
                       href={`${menuItem.path}`}
                       className={
                         pathUrl === menuItem.path
-                          ? "text-primary hover:text-primary"
+                          ? "text-waterloo hover:text-primary"
                           : "hover:text-primary"
                       }
                     >
@@ -143,25 +145,27 @@ const Header = () => {
               ))}
             </ul>
           </nav>
-
-          <div className="mt-7 flex items-center gap-6 xl:mt-0">
-            {/* <ThemeToggler /> */}
-
-            <Link
-              href="index.html"
-              className="text-regular font-medium text-waterloo hover:text-primary"
-            >
-              Sign Up
-            </Link>
-
-            <Link
-              href="index.html"
-              className="flex items-center justify-center rounded-full bg-primary px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:bg-primaryho"
-            >
-              Login
-            </Link>
-          </div>
         </div>
+
+        {/* Authentication Links */}
+        <div className="hidden gap-3 xl:flex xl:w-1/4 xl:justify-end">
+          {/* <ThemeToggler /> */}
+          <Link
+            href="index.html"
+            className="flex items-center justify-center px-5 py-2 text-regular font-medium text-waterloo hover:text-primary dark:hover:primary"
+            style={{ height: '44px' }}
+          >
+            Sign Up
+          </Link>
+          <Link
+            href="index.html"
+            className="flex items-center justify-center rounded-full px-5 py-2 text-regular font-medium text-waterloo duration-300 ease-in-out hover:text-black hover:bg-primary dark:hover:primary"
+            style={{ height: '44px', border: '1px solid #ccc' }}
+          >
+            Login
+          </Link>
+        </div>
+
       </div>
     </header>
   );
