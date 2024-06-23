@@ -23,9 +23,8 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       
-      <body className={`dark:bg-black ${inter.className}`}>
+      <body className={`dark:bg-black ${inter.className} overflow-x-hidden`}>
       <GridSmallBackground>
-
         <ThemeProvider
           enableSystem={false}
           attribute="class"

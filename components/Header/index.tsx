@@ -35,7 +35,7 @@ const Header = () => {
         }`}
     >
       <div className="relative mx-auto w-full items-center justify-between xl:flex 2xl:px-0 bg-white">
-        <div className="flex w-full items-center justify-between xl:w-1/2 h-16">
+        <div className="flex w-full items-center justify-between xl:w-1/2 h-14 px-14">
           <a href="/">
             <Image
               src="/images/logo/logo-dark.svg"
