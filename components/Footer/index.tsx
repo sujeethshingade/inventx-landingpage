@@ -28,6 +28,16 @@ const Footer = () => {
                 viewport={{ once: true }}
                 className="animate_top w-1/2 lg:w-1/3"
               >
+<<<<<<< HEAD
+                <a href="#" className="">
+                  <Image
+                    width={500}
+                    height={130}
+                    src="/images/logo/logo-light.svg"
+                    alt="Logo"
+                    className="dark:hidden"
+                  />
+=======
                 <a href="#" className="relative">
                   <div className="flex justify-start items-start">
                     <Image
@@ -39,6 +49,7 @@ const Footer = () => {
                     />
                   </div>
                   
+>>>>>>> 16ea85ff55bfb72748253a67c0c3b9717e53be6a
                   <Image
                     width={100}
                     height={40}
