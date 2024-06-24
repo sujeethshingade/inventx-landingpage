@@ -11,10 +11,10 @@ const FAQItem = ({ faqData }: { faqData: FaqData }) => {
 
   return (
     <>
-      <div className="flex flex-col border-b border-stroke last-of-type:border-none dark:border-strokedark">
+      <div className={`flex flex-col border-b border-stroke last-of-type:border-none dark:border-strokedark rounded-lg`}> {/* <-- Added rounded-lg here */}
         <button
           onClick={() => handleFaqToggle(id)}
-          className={`flex  cursor-pointer items-center justify-between px-6 py-5 font-medium text-black dark:text-white lg:px-9 lg:py-5.5 transition-colors duration-200 ${activeFaq === id ? 'text-primary dark:text-primaryho' : 'hover:text-primary dark:hover:text-primary'
+          className={`flex cursor-pointer items-center justify-between px-6 py-5 font-medium text-black dark:text-white lg:px-9 lg:py-5.5 transition-colors duration-200 ${activeFaq === id ? 'text-primary dark:text-primaryho' : 'hover:text-primary dark:hover:text-primary'
             }`}
         >
           {quest}

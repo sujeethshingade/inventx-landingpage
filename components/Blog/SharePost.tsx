@@ -9,7 +9,7 @@ const SharePost = () => {
           <li>
             <a href="#" aria-label="social link">
               <svg
-                className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"
+                className="fill-[#1C2120] transition-all duration-300 hover:fill-primary"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
@@ -33,7 +33,7 @@ const SharePost = () => {
           <li>
             <a href="#" aria-label="social link">
               <svg
-                className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"
+                className="fill-[#1C2120] transition-all duration-300 hover:fill-primary"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
@@ -57,7 +57,7 @@ const SharePost = () => {
           <li>
             <a href="#" aria-label="social link">
               <svg
-                className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"
+                className="fill-[#1C2120] transition-all duration-300 hover:fill-primary"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
@@ -81,7 +81,7 @@ const SharePost = () => {
           <li>
             <a href="#" aria-label="social link">
               <svg
-                className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"
+                className="fill-[#1C2120] transition-all duration-300 hover:fill-primary"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
@@ -113,7 +113,7 @@ const SharePost = () => {
             </a>
 
             <a href="#" className="duration-300 ease-in-out hover:text-primary">
-              #saas
+              #invent
             </a>
           </li>
         </ul>

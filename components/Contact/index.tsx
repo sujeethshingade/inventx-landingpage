@@ -1,4 +1,4 @@
-"use client";
+  "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import React from "react";
@@ -182,14 +182,14 @@ const Contact = () => {
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Our Loaction
                 </h3>
-                <p>290 Maryam Springs 260, Courbevoie, Paris, France</p>
+                <p>Add Address</p>
               </div>
               <div className="5 mb-7">
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Email Address
                 </h3>
                 <p>
-                  <a href="#">yourmail@domainname.com</a>
+                  <a href="#">Add Email</a>
                 </p>
               </div>
               <div>
@@ -197,7 +197,7 @@ const Contact = () => {
                   Phone Number
                 </h4>
                 <p>
-                  <a href="#">+009 42334 6343 843</a>
+                  <a href="#">+91 Add Phone Number</a>
                 </p>
               </div>
             </motion.div>

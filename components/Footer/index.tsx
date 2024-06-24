@@ -434,7 +434,9 @@ const Footer = () => {
           {/* <!-- Footer Bottom --> */}
         </div>
       </footer>
-      <InfiniteScrollText/>
+      <div className="">
+        <InfiniteScrollText/>
+      </div>
       
 
     </>

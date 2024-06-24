@@ -12,7 +12,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { TextGenerateEffect } from "./text-effect";
 import { SparklesCore } from "./hero-text";
-// import HeroText from "./hero-text";
 
 export const HeroSection = ({
   products,
@@ -61,7 +60,7 @@ export const HeroSection = ({
   return (
     <div
       ref={ref}
-      className="h-[250vh] py-40 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+      className="h-[250vh] py-40 overflow-hidden antialiased relative flex flex-col self-auto perspective:1000px transform-style:preserve-3d"
     >
       <Header />
       <motion.div
@@ -82,7 +81,7 @@ export const HeroSection = ({
             />
           ))}
         </motion.div>
-        <motion.div className="flex flex-row  mb-20 space-x-20 ">
+        <motion.div className="flex flex-row mb-20 space-x-20">
           {secondRow.map((product) => (
             <ProductCard
               product={product}
@@ -105,19 +104,19 @@ export const HeroSection = ({
   );
 };
 
-const quote ="Igniting the Spark of Innovation in GenZ"
+const quote = "Igniting the Spark of Innovation in GenZ";
 
 export const Header = () => {
   const { theme, setTheme } = useTheme();
-  const particleColor = theme === 'light' ? '#000000' : '#FFFFFF'; 
+  const particleColor = theme === "light" ? "#000000" : "#FFFFFF";
   return (
-      <div className="max-w-7xl relative mx-auto py-10 md:py-10 px-4 w-full left-0 top-0">
-        <div className="flex justify-center items-center mt-28">
-            <div className="font-dark text-black dark:text-white"> 
-              <TextGenerateEffect words={quote}/>
-            </div>
+    <div className="max-w-7xl relative mx-auto py-10 md:py-10 px-4 w-full left-0 top-0">
+      <div className="flex justify-center items-center mt-28">
+        <div className="font-dark text-black dark:text-white">
+          <TextGenerateEffect words={quote} />
         </div>
-        <div className="h-[20rem] w-full flex flex-col items-center justify-center overflow-hidden rounded-md">
+      </div>
+      <div className="h-[20rem] w-full flex flex-col items-center justify-center overflow-hidden rounded-md">
         <div className="flex justify-center items-center mt-10">
           <h1 className="md:text-6xl text-4xl lg:text-8xl font-bold text-center dark:text-white text-black relative z-20">
             Invent
@@ -126,13 +125,13 @@ export const Header = () => {
             X
           </h1>
         </div>
-        
+
         <div className="w-[40rem] h-40 relative">
           <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
           <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />
           <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-[5px] w-1/4 blur-sm" />
           <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px w-1/4" />
-          
+
           <SparklesCore
             background="transparent"
             minSize={0.4}
@@ -141,17 +140,12 @@ export const Header = () => {
             className="w-full h-full"
             particleColor={particleColor}
           />
-          
-          <div className="absolute inset-0 w-full h-full bg-white dark:bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
-          
+
+          <div className="absolute inset-0 w-full h-full bg-white dark:bg-black mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)"></div>
         </div>
-        
-        
       </div>
-      
-      <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
-     
-      </p>
+
+      <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200"></p>
     </div>
   );
 };
@@ -176,19 +170,19 @@ export const ProductCard = ({
         y: -20,
       }}
       key={product.title}
-      className="group/product h-96 w-[30rem] relative flex-shrink-0"
+      className="group/product h-96 w-[30rem] relative flex-shrink-0 rounded-lg overflow-hidden"
     >
-      <Link
-        href={product.link}
-        className="block group-hover/product:shadow-2xl "
-      >
-        <Image
-          src={product.thumbnail}
-          height="600"
-          width="600"
-          className="object-cover object-left-top absolute h-full w-full inset-0"
-          alt={product.title}
-        />
+      <Link href={product.link} className="block group-hover/product:shadow-2xl">
+        <div className="relative h-full w-full overflow-hidden rounded-lg">
+          <Image
+            src={product.thumbnail}
+            height="600"
+            width="600"
+            layout="responsive"
+            className="object-cover object-left-top"
+            alt={product.title}
+          />
+        </div>
       </Link>
       <div className="absolute inset-0 h-full w-full opacity-0 group-hover/product:opacity-80 bg-black pointer-events-none"></div>
       <h2 className="absolute bottom-4 left-4 opacity-0 group-hover/product:opacity-100 text-white">
