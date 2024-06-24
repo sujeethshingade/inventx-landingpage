@@ -25,11 +25,11 @@ export default function RootLayout({
       
       <body className={`dark:bg-black ${inter.className} overflow-x-hidden`}>
       <GridSmallBackground>
-        <ThemeProvider
+        {/* <ThemeProvider
           enableSystem={false}
           attribute="class"
           defaultTheme="light"
-        >
+        > */}
           <Header />
           <CustomCursor />
           
@@ -37,7 +37,7 @@ export default function RootLayout({
           {children}
           <Footer />
           <ScrollToTop />
-        </ThemeProvider>
+        {/* </ThemeProvider> */}
       </GridSmallBackground>
       </body>
       

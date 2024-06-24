@@ -31,7 +31,7 @@ const Header = () => {
     <header
       className={`fixed left-0 top-0 z-99999 h-16 w-full py-1 ${stickyMenu
         ? "bg-white !py-1 shadow transition duration-100 dark:bg-black"
-        : ""
+        : "bg-white shadow"
         }`}
     >
       <div className="relative mx-auto flex max-w-c-1390 items-center justify-between px-4 md:px-25 2xl:px-0">
@@ -131,11 +131,7 @@ const Header = () => {
                   ) : (
                     <Link
                       href={`${menuItem.path}`}
-                      className={
-                        pathUrl === menuItem.path
-                          ? "text-waterloo hover:text-primary"
-                          : "hover:text-primary"
-                      }
+                      className={"text-waterloo hover:text-primary text-lg font-semibold"}
                     >
                       {menuItem.title}
                     </Link>
@@ -151,14 +147,14 @@ const Header = () => {
           {/* <ThemeToggler /> */}
           <Link
             href="index.html"
-            className="flex items-center justify-center px-5 py-2 text-regular font-medium text-waterloo hover:text-primary dark:hover:primary"
+            className="flex items-center justify-center px-5 py-2 text-waterloo hover:text-primary dark:hover:primary text-regular font-semibold"
             style={{ height: '44px' }}
           >
             Sign Up
           </Link>
           <Link
             href="index.html"
-            className="flex items-center justify-center rounded-full px-5 py-2 text-regular font-medium text-waterloo duration-300 ease-in-out hover:text-black hover:bg-primary dark:hover:primary"
+            className="flex items-center justify-center rounded-full px-5 py-2 text-regular font-semibold text-waterloo duration-300 ease-in-out hover:text-black hover:bg-primary dark:hover:primary"
             style={{ height: '44px', border: '1px solid #ccc' }}
           >
             Login
