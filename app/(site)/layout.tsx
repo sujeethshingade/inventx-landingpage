@@ -28,7 +28,7 @@ export default function RootLayout({
         <ThemeProvider
           enableSystem={false}
           attribute="class"
-          defaultTheme="dark"
+          defaultTheme="light"
         >
           <Header />
           <CustomCursor />

@@ -8,7 +8,6 @@ const Footer = () => {
     <>
       <footer className="border-t border-stroke bg-white dark:border-strokedark dark:bg-blacksection lg:px-30">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
-          {/* <!-- Footer Top --> */}
           <div className="py-10 lg:py-7">
             <div className="flex flex-wrap gap-8 lg:justify-between lg:gap-0  ">
               <motion.div
@@ -30,13 +29,16 @@ const Footer = () => {
                 className="animate_top w-1/2 lg:w-1/3"
               >
                 <a href="#" className="relative">
-                  <Image
-                    width={1000}
-                    height={400}
-                    src="/images/logo/logo-light.svg"
-                    alt="Logo"
-                    className="dark:hidden"
-                  />
+                  <div className="flex justify-start items-start">
+                    <Image
+                      width={200}
+                      height={120}
+                      src="/images/logo/logo-light.svg"
+                      alt="Logo"
+                      className="dark:hidden"
+                    />
+                  </div>
+                  
                   <Image
                     width={1000}
                     height={400}
