@@ -31,15 +31,15 @@ export default function Home() {
       <CustomCursor />
       {/* <Feature /> */}
       {/* <About /> */}
-      <div className="p-10 md:p-16 lg:p-28"> 
-      <Globe/>
+      <div className="p-8 md:p-12 lg:p-20"> 
+        <Globe/>
       </div>
       {/* <CTA/> */}
       {/* <FeaturesTab /> */}
       {/* <FunFact /> */}
       {/* <Integration /> */}
       <div className="p-8 md:p-14 lg:p-24"> 
-      <Testimonial />
+        <Testimonial />
       </div>
       {/* <Pricing /> */}
       {/* <Contact /> */}
