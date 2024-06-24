@@ -1,46 +1,62 @@
 "use client";
 import React from "react";
-import { motion } from "framer-motion";
+import { StickyScroll } from "./WhatweDo";
+import Image from "next/image";
 
-const CTA = () => {
+const content = [
+  {
+    title: "Collaborative Editing",
+    description:
+      "Work together in real time with your team, clients, and stakeholders. Collaborate on documents, share ideas, and make decisions quickly. With our platform, you can streamline your workflow and increase productivity.",
+    content: (
+      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-black">
+        Collaborative Editing
+      </div>
+    ),
+  },
+  {
+    title: "Real time changes",
+    description:
+      "See changes as they happen. With our platform, you can track every modification in real time. No more confusion about the latest version of your project. Say goodbye to the chaos of version control and embrace the simplicity of real-time updates.",
+    content: (
+      <div className="h-full w-full  flex items-center justify-center text-black">
+        <Image
+          src="/linear.webp"
+          width={300}
+          height={300}
+          className="h-full w-full object-cover"
+          alt="linear board demo"
+        />
+      </div>
+    ),
+  },
+  {
+    title: "Version control",
+    description:
+      "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+    content: (
+      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] flex items-center justify-center text-black">
+        Version control
+      </div>
+    ),
+  },
+  {
+    title: "Running out of content",
+    description:
+      "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+    content: (
+      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-black">
+        Running out of content
+      </div>
+    ),
+  },
+];
+export function StickyScrollRevealDemo() {
   return (
-    <>
-      {/* <!-- ===== CTA Start ===== --> */}
-      <section className="overflow-hidden px-4 py-20 md:px-8 lg:py-25 xl:py-30 2xl:px-0 flex items-center justify-center">
-        <div className="max-w-c-1390 sharp-lg bg-gradient-to-t from-[#F8F9FF] to-[#EEEEEE] px-7.5 py-12.5 dark:bg-blacksection dark:bg-gradient-to-t dark:from-transparent dark:to-transparent dark:stroke-strokedark md:px-12.5 xl:px-17.5 xl:py-0">
-          <div className="flex flex-wrap gap-8 md:flex-nowrap md:items-center md:justify-between md:gap-0">
-            <motion.div
-              variants={{
-                hidden: {
-                  opacity: 0,
-                  x: -20,
-                },
-                visible: {
-                  opacity: 1,
-                  x: 0,
-                },
-              }}
-              initial="hidden"
-              whileInView="visible"
-              transition={{ duration: 1, delay: 0.1 }}
-              viewport={{ once: true }}
-              className="animate_left lg:w-1/1 text-center py-12 px-4 md:px-0"
-            >
-              <h2 className="mb-4 w-12/12 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle4">
-                What We Stand For
-              </h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In 
-                convallis tortor eros. Donec vitae tortor lacus. Phasellus
-                aliquam ante in maximus.
-              </p>
-            </motion.div>
-          </div>
-        </div>
-      </section>
-      {/* <!-- ===== CTA End ===== --> */}
-    </>
+    <div className="p-10">
+      <StickyScroll content={content} />
+    </div>
   );
-};
+}
 
-export default CTA;
+

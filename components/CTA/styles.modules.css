@@ -1,0 +1,4 @@
+/* styles.module.css */
+.overflowScroll::-webkit-scrollbar {
+    display: none;
+  }
