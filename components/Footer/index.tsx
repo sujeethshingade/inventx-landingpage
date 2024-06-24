@@ -6,7 +6,7 @@ import InfiniteScrollText from "./InfiniteScroll";
 const Footer = () => {
   return (
     <>
-      <footer className="border-t border-stroke bg-white dark:border-strokedark dark:bg-blacksection lg:px-30">
+      <footer className="border-t border-stroke bg-white dark:border-strokedark dark:bg-blacksection lg:px-30 sm:mx-30 md:mx-40">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           {/* <!-- Footer Top --> */}
           <div className="py-10 lg:py-7">
@@ -29,24 +29,24 @@ const Footer = () => {
                 viewport={{ once: true }}
                 className="animate_top w-1/2 lg:w-1/3"
               >
-                <a href="#" className="relative">
+                <a href="#" className="">
                   <Image
-                    width={1000}
-                    height={400}
+                    width={500}
+                    height={130}
                     src="/images/logo/logo-light.svg"
                     alt="Logo"
                     className="dark:hidden"
                   />
                   <Image
-                    width={1000}
-                    height={400}
+                    width={100}
+                    height={40}
                     src="/images/logo/logo-dark.svg"
                     alt="Logo"
                     className="hidden dark:block"
                   />
                 </a>
 
-                <p className="mb-10 mt-0 px-10 md:px-0 text-center md:text-left">
+                <p className="mb-10 mt-0 px-10 md:px-16 text-center md:text-left">
                   <span className="block">Igniting the Spark of</span>
                   <span className="block">Innovation in Gen-Z</span>
                 </p>
@@ -69,7 +69,7 @@ const Footer = () => {
                   viewport={{ once: true }}
                   className="animate_top"
                 >
-                  <ul className="flex items-center gap-6">
+                  <ul className="flex items-center gap-6 sm:px-8 md:px-16">
                     <li>
                       <a href="#" aria-label="social icon">
                         <svg
@@ -186,7 +186,7 @@ const Footer = () => {
                   className="animate_top"
                 >
                   <h4 className="mb-9 text-itemtitle1 font-medium text-black dark:text-white">
-                    Personas
+                    Persona
                   </h4>
 
                   <ul>

@@ -1,11 +1,13 @@
 import About from "@/components/About"
-import CTA from "@/components/CTA";
+import { StickyScrollRevealDemo } from "@/components/CTA";
 import Contact from "@/components/Contact";
 
 export default function about() {
     return <>
-        <CTA/>
-        <Contact />
-        <About/>
+        <div className="pt-20">
+        <StickyScrollRevealDemo/>
+        {/* <Contact />
+        <About/> */}
+        </div>
     </>
 }
