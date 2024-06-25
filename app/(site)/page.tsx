@@ -4,12 +4,11 @@ import About from "@/components/About";
 import FeaturesTab from "@/components/FeaturesTab";
 import FunFact from "@/components/FunFact";
 import Integration from "@/components/Integration";
-import CTA from "@/components/CTA";
 import FAQ from "@/components/FAQ";
 import Pricing from "@/components/Pricing";
 import Contact from "@/components/Contact";
 //import Blog from "@/components/Blog";
-import { ThreeDCardDemo } from "@/components/Blog/3d-effect";
+import { LandingBlogCards } from "@/components/Blog/3d-effect";
 import Testimonial from "@/components/Testimonial";
 import { HeroSection } from "@/components/HeroSection/index";
 import { products } from "@/components/Data/ideas";
@@ -31,20 +30,20 @@ export default function Home() {
       <CustomCursor />
       {/* <Feature /> */}
       {/* <About /> */}
-      <div className="p-10 md:p-16 lg:p-28"> 
-      <Globe/>
+      <div className="p-8 md:p-12 lg:p-20"> 
+        <Globe/>
       </div>
       {/* <CTA/> */}
       {/* <FeaturesTab /> */}
       {/* <FunFact /> */}
       {/* <Integration /> */}
       <div className="p-8 md:p-14 lg:p-24"> 
-      <Testimonial />
+        <Testimonial />
       </div>
       {/* <Pricing /> */}
       {/* <Contact /> */}
       <div className="p-8 md:p-14 lg:p-24"> 
-      <ThreeDCardDemo/>
+      <LandingBlogCards/>
       </div>
       <FAQ />
     </main>

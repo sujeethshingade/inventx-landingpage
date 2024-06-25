@@ -5,7 +5,7 @@ import React from "react";
 import { CardBody, CardContainer, CardItem } from "./index";
 import Link from "next/link";
 
-export function ThreeDCardDemo() {
+export function LandingBlogCards() {
   return (
     <div>
       <div className="flex justify-center items-center font-bold text-6xl dark:text-white text-black">Blogs</div>
