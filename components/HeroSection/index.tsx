@@ -104,7 +104,7 @@ export const HeroSection = ({
   );
 };
 
-const quote = "Igniting the Spark of Innovation in GenZ";
+const quote = "Where Innovation Knows No Boundaries";
 
 export const Header = () => {
   const { theme, setTheme } = useTheme();
