@@ -6,35 +6,35 @@ import InfiniteScrollText from './InfiniteScroll';
 
 const Footer = () => {
   return (<>
-      <div className='border shadow-md'>
+      <div className='border'>
         <div className="bg-white text-black p-10">
           <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             <div>
-              <Image src="/logo/logo.jpg" alt="Domestico Logo" width={150} height={50} className="mb-4" />
+              <Image src="images/logo/logo-light.svg" alt="Logo" width={200} height={100} className="mb-4" />
               <p>Domestico.pl - Twój sklep internetowy.</p>
             </div>
             <div>
-              <h3 className="font-bold mb-3">Sklep</h3>
+              <h3 className="font-bold mb-3">Persona</h3>
               <ul>
                 <li>
                   <Link href="/category/new-arrivals">
-                    <span className="cursor-pointer hover:underline">Nowości</span>
+                    <span className="cursor-pointer hover:underline">Alumni</span>
                   </Link>
                 </li>
                 <li>
                   <Link href="/category/sale">
-                    <span className="cursor-pointer hover:underline">Wyprzedaż</span>
+                    <span className="cursor-pointer hover:underline">Student</span>
                   </Link>
                 </li>
                 <li>
                   <Link href="/category/top-rated">
-                    <span className="cursor-pointer hover:underline">Najwyżej oceniane</span>
+                    <span className="cursor-pointer hover:underline">Investor</span>
                   </Link>
                 </li>
               </ul>
             </div>
             <div>
-              <h3 className="font-bold mb-3">Informacje</h3>
+              <h3 className="font-bold mb-3">Resources</h3>
               <ul>
                 <li>
                   <Link href="/about">
@@ -54,7 +54,7 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h3 className="font-bold mb-3">Konto</h3>
+              <h3 className="font-bold mb-3">Company</h3>
               <ul>
                 <li>
                   <Link href="/account/orders">

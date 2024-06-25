@@ -43,7 +43,7 @@ export default function Home() {
       {/* <Pricing /> */}
       {/* <Contact /> */}
       <div className="pb-8 md:p-14 lg:p-24"> 
-      <LandingBlogCards/>
+        <LandingBlogCards/>
       </div>
       <FAQ />
     </main>

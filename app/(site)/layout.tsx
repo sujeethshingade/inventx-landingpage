@@ -36,8 +36,8 @@ export default function RootLayout({
           
           <ToasterContext />
           {children}
-          {/* <Footer /> */}
-          <InfiniteScrollText/>
+          <Footer />
+          {/* <InfiniteScrollText/> */}
           <ScrollToTop />
         {/* </ThemeProvider> */}
       </GridSmallBackground>
