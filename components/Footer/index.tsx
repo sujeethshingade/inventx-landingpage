@@ -28,16 +28,6 @@ const Footer = () => {
                 viewport={{ once: true }}
                 className="animate_top w-1/2 lg:w-1/3"
               >
-<<<<<<< HEAD
-                <a href="#" className="">
-                  <Image
-                    width={500}
-                    height={130}
-                    src="/images/logo/logo-light.svg"
-                    alt="Logo"
-                    className="dark:hidden"
-                  />
-=======
                 <a href="#" className="relative">
                   <div className="flex justify-start items-start">
                     <Image
@@ -49,7 +39,6 @@ const Footer = () => {
                     />
                   </div>
                   
->>>>>>> 16ea85ff55bfb72748253a67c0c3b9717e53be6a
                   <Image
                     width={100}
                     height={40}
@@ -59,9 +48,10 @@ const Footer = () => {
                   />
                 </a>
 
-                <p className="mb-10 mt-0 px-10 md:px-16 text-center md:text-left">
-                  <span className="block">Igniting the Spark of</span>
-                  <span className="block">Innovation in Gen-Z</span>
+                <p className="mb-10 mt-0 text-center md:px-10 md:text-left">
+                  <span className="block">Where Innovation Knows</span>
+                  <span className="block"> No Boundaries</span>
+      
                 </p>
 
                 <motion.div
@@ -82,7 +72,7 @@ const Footer = () => {
                   viewport={{ once: true }}
                   className="animate_top"
                 >
-                  <ul className="flex items-center gap-6 sm:px-8 md:px-16">
+                  <ul className="flex items-center gap-6 sm:px-8 md:px-10">
                     <li>
                       <a href="#" aria-label="social icon">
                         <svg
