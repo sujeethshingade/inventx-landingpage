@@ -13,6 +13,7 @@ const inter = Inter({ subsets: ["latin"] });
 import ToasterContext from "../context/ToastContext";
 import { TracingBeam } from "@/components/Tracing-beam/tracing";
 import { GridSmallBackground } from "@/components/Background";
+import InfiniteScrollText from "@/components/Footer/InfiniteScroll";
 
 
 export default function RootLayout({
@@ -35,7 +36,8 @@ export default function RootLayout({
           
           <ToasterContext />
           {children}
-          <Footer />
+          {/* <Footer /> */}
+          <InfiniteScrollText/>
           <ScrollToTop />
         {/* </ThemeProvider> */}
       </GridSmallBackground>

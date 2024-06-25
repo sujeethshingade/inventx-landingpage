@@ -8,7 +8,7 @@ import FAQ from "@/components/FAQ";
 import Pricing from "@/components/Pricing";
 import Contact from "@/components/Contact";
 //import Blog from "@/components/Blog";
-import { LandingBlogCards } from "@/components/Blog/3d-effect";
+import { LandingBlogCards } from "@/components/Blog/LandingBlogCard";
 import Testimonial from "@/components/Testimonial";
 import { HeroSection } from "@/components/HeroSection/index";
 import { products } from "@/components/Data/ideas";
@@ -42,7 +42,7 @@ export default function Home() {
       </div>
       {/* <Pricing /> */}
       {/* <Contact /> */}
-      <div className="p-8 md:p-14 lg:p-24"> 
+      <div className="pb-8 md:p-14 lg:p-24"> 
       <LandingBlogCards/>
       </div>
       <FAQ />
