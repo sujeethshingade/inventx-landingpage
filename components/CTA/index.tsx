@@ -1,13 +1,13 @@
 "use client";
 import React from "react";
-import { StickyScroll } from "./WhatweDo";
+import { WhatweDo } from "./WhatweDo";
 import Image from "next/image";
 
 const content = [
   {
-    title: "Collaborative Editing",
+    title: "Inventx as an Ideation platform",
     description:
-      "Work together in real time with your team, clients, and stakeholders. Collaborate on documents, share ideas, and make decisions quickly. With our platform, you can streamline your workflow and increase productivity.",
+      "At InventX, we believe in the power of youthful creativity and bold ideas. We're not just a platform; we're a movement fuelled by the ambition of RV institution students who are reimagining industries, solving global challenges, and shaping the future. Join us as we redefine innovation and investment in the digital age.",
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-black">
         Collaborative Editing
@@ -54,7 +54,7 @@ const content = [
 export function StickyScrollRevealDemo() {
   return (
     <div className="p-10">
-      <StickyScroll content={content} />
+      <WhatweDo content={content} />
     </div>
   );
 }
