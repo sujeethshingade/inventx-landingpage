@@ -169,7 +169,7 @@ export const Header = () => {
             maxSize={1}
             particleDensity={2500}
             className="w-full h-full"
-            particleColor="#000000"
+            particleColor="#5BBFAF"
           />
   
           {/* Radial Gradient to prevent sharp edges */}

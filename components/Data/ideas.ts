@@ -1,23 +1,24 @@
 export const products = [
-    {
-      title: "Cyber Security",
-      link: "",
-      thumbnail:
-        "/images/hero/cyber-security.jpg",
-         
-    },
+
     {
       title: "Data Science",
       link: "",
       thumbnail:
-        "/images/hero/datascience.jpg",
+        "/images/hero/data-science.jpg",
       
     },
     {
       title: "Cloud Computing",
       link: "",
       thumbnail:
-        "/images/hero/programming.jpg",
+        "/images/hero/cloud-computing.jpg",
+    },
+    {
+      title: "Cyber Security",
+      link: "",
+      thumbnail:
+        "/images/hero/cyber-security.jpg",
+         
     },
    
     {
@@ -43,19 +44,19 @@ export const products = [
       title: "Programming",
       link: "",
       thumbnail:
-        "/images/hero/programming2.jpg",
+        "/images/hero/programming.jpg",
     },
     {
       title: "Electronics and Semiconductor",
       link: "",
       thumbnail:
-        "https://aceternity.com/images/products/thumbnails/new/aceternityui.png",
+        "/images/hero/semiconductor.jpg",
     },
     {
       title: "Aerospace",
       link: "",
       thumbnail:
-        "https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
+        "/images/hero/aero.jpg",
     },
     // {
     //   title: "SmartBridge",
