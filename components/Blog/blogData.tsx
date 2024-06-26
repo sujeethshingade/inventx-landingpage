@@ -4,9 +4,9 @@ const BlogData: Blog[] = [
   {
     _id: 1,
     mainImage: "/images/blog/blog-01.png",
-    title: "The Relevance of Decision Science",
+    title: "Free advertising for your online business",
     metadata:
-      "Decision science is an interdisciplinary field that interprets, predicts, and influences decisions made by humans.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
   },
   {
     _id: 2,
