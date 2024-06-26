@@ -12,6 +12,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { TextGenerateEffect } from "./text-effect";
 import { SparklesCore } from "./hero-text";
+import "./style.css"
 
 export const HeroSection = ({
   products,
@@ -113,7 +114,8 @@ export const Header = () => {
     <div className="max-w-7xl relative mx-auto py-10 md:py-10 px-4 w-full left-0 top-0">
       <div className="flex justify-center items-center mt-28">
         <div className="font-dark text-black dark:text-white">
-          <TextGenerateEffect words={quote} />
+         
+        <TextGenerateEffect words={quote} />
         </div>
       </div>
       {/* <div className="h-[20rem] w-full flex flex-col items-center justify-center overflow-hidden rounded-md">
