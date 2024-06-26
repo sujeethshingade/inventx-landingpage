@@ -7,8 +7,7 @@ import Integration from "@/components/Integration";
 import FAQ from "@/components/FAQ";
 import Pricing from "@/components/Pricing";
 import Contact from "@/components/Contact";
-//import Blog from "@/components/Blog";
-import { LandingBlogCards } from "@/components/Blog/LandingBlogCard";
+import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
 import { HeroSection } from "@/components/HeroSection/index";
 import { products } from "@/components/Data/ideas";
@@ -43,7 +42,8 @@ export default function Home() {
       {/* <Pricing /> */}
       {/* <Contact /> */}
       <div className="pb-8 md:p-14 lg:p-24"> 
-        <LandingBlogCards/>
+       {/* <LandingBlogCards/> */}
+        <Blog/>
       </div>
       <FAQ />
     </main>
