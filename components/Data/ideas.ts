@@ -1,58 +1,58 @@
 export const products = [
     {
-      title: "",
+      title: "Cyber Security",
       link: "",
       thumbnail:
-        "https://aceternity.com/images/products/thumbnails/new/rogue.png",
+        "/images/hero/cyber-security.jpg",
          
     },
     {
-      title: "",
+      title: "Data Science",
       link: "",
       thumbnail:
-        "https://aceternity.com/images/products/thumbnails/new/rogue.png",
+        "/images/hero/datascience.jpg",
       
     },
     {
-      title: "",
+      title: "Cloud Computing",
       link: "",
       thumbnail:
-        "https://aceternity.com/images/products/thumbnails/new/rogue.png",
+        "/images/hero/programming.jpg",
     },
    
     {
-      title: "",
+      title: "Artificial Intelligence",
       link: "",
       thumbnail:
-        "https://aceternity.com/images/products/thumbnails/new/editorially.png",
+        "/images/hero/ai.jpg",
     },
     {
-      title: "",
+      title: "Automation",
       link: "",
       thumbnail:
-        "https://aceternity.com/images/products/thumbnails/new/editrix.png",
+        "/images/hero/automation.jpg",
     },
     {
-      title: "",
+      title: "Civil Engineering",
       link: "",
       thumbnail:
-        "https://aceternity.com/images/products/thumbnails/new/pixelperfect.png",
+        "/images/hero/civil.jpg",
     },
    
     {
-      title: "",
+      title: "Programming",
       link: "",
       thumbnail:
-        "https://aceternity.com/images/products/thumbnails/new/algochurn.png",
+        "/images/hero/programming2.jpg",
     },
     {
-      title: "",
+      title: "Electronics and Semiconductor",
       link: "",
       thumbnail:
         "https://aceternity.com/images/products/thumbnails/new/aceternityui.png",
     },
     {
-      title: "",
+      title: "Aerospace",
       link: "",
       thumbnail:
         "https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
