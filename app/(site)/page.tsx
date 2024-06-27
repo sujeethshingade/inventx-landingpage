@@ -29,19 +29,19 @@ export default function Home() {
       <CustomCursor />
       {/* <Feature /> */}
       {/* <About /> */}
-      <div className="mb-20"> 
+      <div className="mb-20 mt-40"> 
         <Globe/>
       </div>
       {/* <CTA/> */}
       {/* <FeaturesTab /> */}
       {/* <FunFact /> */}
       {/* <Integration /> */}
-      <div className="p-8 md:p-14 lg:p-24"> 
+      <div className="mt-44"> 
         <Testimonial />
       </div>
       {/* <Pricing /> */}
       {/* <Contact /> */}
-      <div className="pb-8 md:p-14 lg:p-24"> 
+      <div className=""> 
        {/* <LandingBlogCards/> */}
         <Blog/>
       </div>
