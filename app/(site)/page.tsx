@@ -29,11 +29,7 @@ export default function Home() {
       <CustomCursor />
       {/* <Feature /> */}
       {/* <About /> */}
-<<<<<<< HEAD
-      <div className="mb-20 mt-24 md:mt-40"> 
-=======
       <div className="p-8 md:p-12 lg:p-20"> 
->>>>>>> 61b7eff4799f92538b5fca954595853b45a7bfa6
         <Globe/>
       </div>
       {/* <CTA/> */}
