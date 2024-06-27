@@ -55,13 +55,13 @@ export const HeroSection = ({
     springConfig
   );
   const translateY = useSpring(
-    useTransform(scrollYProgress, [0, 0.2], [-700, 500]),
+    useTransform(scrollYProgress, [0, 0.2], [-350, 250]),
     springConfig
   );
   return (
     <div
       ref={ref}
-      className="h-[240vh] pt-40 overflow-hidden antialiased relative flex flex-col self-auto perspective:1000px transform-style:preserve-3d"
+      className="h-[250vh] py-40 overflow-hidden antialiased relative flex flex-col self-auto perspective:1000px transform-style:preserve-3d"
     >
       <Header />
       <motion.div
@@ -147,7 +147,7 @@ export const Header = () => {
         </div>
       </div> */}
       <div className="h-[20rem] w-full flex flex-col items-center justify-center overflow-hidden rounded-md">
-        <div className="flex justify-center items-center mt-10">
+      <div className="flex justify-center items-center mt-10">
           <h1 className="md:text-6xl text-4xl lg:text-8xl font-bold text-center dark:text-white text-black relative z-20">
             Invent
           </h1>
@@ -169,9 +169,8 @@ export const Header = () => {
             maxSize={1}
             particleDensity={2500}
             className="w-full h-full"
-            particleColor="#000000"
+            particleColor="#5BBFAF"
           />
-          
   
           {/* Radial Gradient to prevent sharp edges */}
           <div className="absolute inset-0 w-full h-full bg-white dark:bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
@@ -198,16 +197,18 @@ export const ProductCard = ({
         x: translate,
       }}
       whileHover={{
-        y: -20,
+        y: -10,
       }}
       key={product.title}
-      className="group/product h-80 w-[30rem] relative flex-shrink-0 rounded-lg overflow-hidden"
+      className="group/product h-96 w-[30rem] relative flex-shrink-0 rounded-lg overflow-hidden"
     >
       <Link href={product.link} className="block group-hover/product:shadow-2xl">
-        <div className="relative h-400 w-500 overflow-hidden rounded-lg">
+        <div className="relative h-full w-full overflow-hidden rounded-lg">
           <Image
             src={product.thumbnail}
-            fill={true}
+            height="600"
+            width="600"
+            layout="responsive"
             className="object-cover object-left-top"
             alt={product.title}
           />

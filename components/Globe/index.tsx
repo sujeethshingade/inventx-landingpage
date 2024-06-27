@@ -396,7 +396,7 @@ export function Globe() {
 
   return (
     <div className="flex flex-row items-center justify-center h-auto relative w-full bg-transparent">
-      <div className="mx-auto relative overflow-hidden h-[35rem] md:h-[40rem] px-4 bg-transparent">
+      <div className="mx-auto relative overflow-hidden h-[30rem] md:h-[40rem] px-4 bg-transparent">
         <motion.div
           initial={{
             opacity: 0,
@@ -415,7 +415,7 @@ export function Globe() {
           Connect with alumni and investors across the globe    
           </h2>
           <p className="text-center text-base md:text-2xl font-normal text-neutral-700 dark:text-neutral-200 max-w-md mt-2 mx-auto ">
-          Discover, Invest andInnovate
+          Discover, Invest and Innovate
           </p>
         </motion.div>
         <div className="absolute w-full bottom-0 inset-x-0 h-60 bg-gradient-to-b pointer-events-none select-none from-transparent dark:to-black to-white z-40 bg-transparent"/>
