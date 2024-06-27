@@ -122,6 +122,18 @@ module.exports = {
       opacity: {
         65: ".65",
       },
+      width: {
+        "400": "400px",
+        "600": "600px",
+        "300": "300px",
+        "500": "500px",
+      },
+      height: {
+        "400": "400px",
+        "600": "600px",
+        "300": "300px",
+        "200": "200px",
+      },
       transitionProperty: { width: "width" },
       boxShadow: {
         "solid-l": "0px 10px 120px 0px rgba(45, 74, 170, 0.1)",
