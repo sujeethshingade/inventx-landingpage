@@ -16,7 +16,7 @@ const SingleBlogPage = async () => {
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="flex flex-col-reverse gap-7.5 lg:flex-row xl:gap-12.5">
             <div className="md:w-1/2 lg:w-[32%]">
-{/* 
+              {/* 
               <div className="animate_top mb-10 rounded-md border border-stroke bg-white p-3.5 shadow-solid-13 dark:border-strokedark dark:bg-blacksection">
                 <form
                   action="https://formbold.com/s/unique_form_id"
@@ -80,8 +80,8 @@ const SingleBlogPage = async () => {
                 <div className="mb-10 w-full overflow-hidden ">
                   <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                     <Image
-                      src={"/images/blog/blog-01.png"}
-                      alt="Kobe Steel plant that supplied"
+                      src={"/images/blog/blog-02.png"}
+                      alt="A Guide to Career Tracks for a UI/ UX Designer"
                       fill
                       className="rounded-md object-cover object-center"
                     />
@@ -89,83 +89,134 @@ const SingleBlogPage = async () => {
                 </div>
 
                 <h2 className="mb-5 mt-11 text-3xl font-semibold text-black dark:text-white 2xl:text-sectiontitle2">
-                  Guide
+                  A Guide to Career Tracks for a UI/ UX Designer
                 </h2>
 
                 <ul className="mb-9 flex flex-wrap gap-5 2xl:gap-7.5">
                   <li>
                     <span className="text-black dark:text-white">Author: </span>{" "}
-                    Jhon Doe
+                    RV University
                   </li>
                   <li>
                     <span className="text-black dark:text-white">
-                      Published On: July 30, 2023
+                      Published On: March 3, 2022
                     </span>{" "}
                   </li>
                   <li>
                     <span className="text-black dark:text-white">
                       Category:
-                    </span>
-                    Events
+                    </span>{" "}
+                    UI-UX Career Path
                   </li>
                 </ul>
 
                 <div className="blog-details">
+                  <h3>Introduction</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nunc quis nibh lorem. Duis sed odio lorem. In a efficitur
-                    leo. Ut venenatis rhoncus quam sed condimentum. Curabitur
-                    vel turpis in dolor volutpat imperdiet in ut mi. Integer non
-                    volutpat nulla. Nunc elementum elit viverra, tempus quam
-                    non, interdum ipsum.
+                    As technology has evolved, so has the UI / UX design industry. Designers are hired by software companies, startups, digital marketing firms, video game companies - any organization which needs to create intuitive interfaces for computers, tablets or phones.
+                  </p>
+                  <p>
+                    With 500 million internet users, India is one of the largest markets for UI / UX designers.
+                  </p>
+                  <p>
+                    If that sounds like a job you would enjoy, the information in this guide will help you decide what kind of track to take in order to succeed in this competitive field! First, let’s take a closer look at the job description of a UI / UX designer.
                   </p>
 
-                  <p>
-                    Aenean augue ex, condimentum vel metus vitae, aliquam porta
-                    elit. Quisque non metus ac orci mollis posuere. Mauris vel
-                    ipsum a diam interdum ultricies sed vitae neque. Nulla
-                    porttitor quam vitae pulvinar placerat. Nulla fringilla elit
-                    sit amet justo feugiat sodales. Morbi eleifend, enim non
-                    eleifend laoreet, odio libero lobortis lectus, non porttitor
-                    sem urna sit amet metus. In sollicitudin quam est,
-                    pellentesque consectetur felis fermentum vitae.
-                  </p>
+                  <h3>Roles and Responsibilities of a UI / UX Designer</h3>
 
                   <div className="flex flex-wrap gap-5">
                     <Image
-                      src={"/images/blog/blog-01.png"}
-                      width={350}
-                      height={200}
+                      src={"/images/blog/guide/guide-01.png"}
+                      width={850}
+                      height={300}
                       alt="image"
                     />
-                    <Image
-                      src={"/images/blog/blog-02.png"}
-                      width={350}
-                      height={200}
-                      alt="image"
-                    />
+                    <div className="p-6 md:p-6 lg:p-6"></div>
                   </div>
 
-                  <h3 className="pt-8">
-                    Nunc elementum elit viverra, tempus quam non
+                  <p>
+                    UI / UX designers are responsible for creating user interfaces that are both functional and visually appealing.
+                  </p>
+                  <p>
+                    They work with stakeholders to determine what tasks the user will need to complete as well as how they will be able to complete those tasks.
+                  </p>
+                  <p>
+                    UI / UX designers also work on the functionality of the design to ensure it moves smoothly with the user's needs. The aim is to help improve the conversation flow, information architecture, and interactivity of a website or app.
+                  </p>
+
+                  <h3>Career Paths for UI / UX Designers</h3>
+                  <p>
+                    A career in UX design can be rewarding and challenging. Knowing the different types of jobs in the field will help you choose which position is right for you. For example, some positions are dedicated to designing websites while others specialize in mobile apps or wearables (electronic devices like smart watches and fitbits used to track information on a real-time basis) Entry-level positions in UX design may include working as a graphic designer or UI designer before making a transition to UX.
+                  </p>
+                  <p>
+                    FreeLance UI / UX Consultant/Designer: As a freelancer, you get to set your own schedule, be your own boss, work from wherever you want to, and pick projects that you are passionate about. There are platforms like Upwork and Fiverr that will give you a headstart to set up your port-folio and find prospective clients to offer your freelance services.
+                  </p>
+                  <p>
+                    UI / UX Designer: You can work as an inhouse UI / UX designer in digital marketing firms and other consulting agencies that cater to various industries, where you can gain more exposure. You will also have team-building opportunities where you can exchange ideas and learn new skill-sets from your colleagues.This will lead you to roles like senior UX designer, lead UX designer, and more.
+                  </p>
+                  <p>
+                    UX Management: Being a UX designer offers many career tracks, and it is possible to continue to progress in your career and obtain managerial positions like UX manager, Creative director, and further down the road, executive positions like Chief Experience Officer, or Vice President of Design and Innovation, etc. This again depends on your management skills and your career aspirations.
+                  </p>
+
+                  <h3>Full Time vs. Freelance Consultant</h3>
+
+                  <p>
+                    UI / UX designers typically start off as freelancers. If you do not have the resources to start your own business, freelancing is a great way to make money and build a portfolio. However, working full time might be better for some UI / UX designers because there are stable paychecks and more opportunities to grow and elevate one’s role into managerial positions. Additionally, full time work has more opportunities for promotion and advancement.
+                  </p>
+
+                  <h3>Salary structures for UI / UX designers</h3>
+
+                  <p>
+                    Designers in the UI / UX field come from a variety of different backgrounds. Some work as graphic designers, some as software developers, and others may have only done portfolio work.
+                  </p>
+                  <p>
+                    Data from a new survey has revealed that the median salary for designers at top companies has tripled in the last three years.
+                  </p>
+                  <p>
+                    The average salary of a UI / UX design professional in India ranges between a base pay of 6 Lakhs to 7 Lakhs Per annum while the US market is known to pay anywhere between US $69,000 to $115,000.
+                  </p>
+                  <p>
+                    Senior designers and design heads who work in top consumer tech companies and who are at the top of their game and in high demand, are known to earn six-figure salaries.
+                  </p>
+
+                  <h3>Education Requirements</h3>
+
+                  <p>
+                    There are many paths to becoming a UI / UX Designer, but the one commonality among all is that you'll need an actual design degree. What you should ideally look at is to pursue a degree from a design school that teaches you all aspects of design and the right kind of practical foundation needed to further hone subject specific skills.
+                  </p>
+                  <p>
+                    RV university also offers an interdisciplinary course curriculum that gives you the flexibility to choose minors from the other two streams in the School of Economics and Finance and School of Liberal Arts and Sciences. You can major in a UX Design Undergraduate program and pick your favourite subject as a minor from any of the 3 schools.
+                  </p>
+                  <p>
+                    By the time you graduate, you'll have gained hands-on experience and you will be ready to launch your career as a UX design professional.
+                  </p>
+
+                  <h3>Other skill-sets of a UI / UX designer include</h3>
+
+                  <p>
+                    Knowledge of Computer Sciences in general, especially in UX/UI design apps as they are interdependent and will help you bridge the gap between design and development.
+                  </p>
+                  <p>
+                    Creativity in your field of expertise so that you can come up with innovative and fresh wireframes and designs.
+                  </p>
+                  <p>
+                    Research skills to help you be more prepared with the understanding of the project and its industry best practices. For example, a project for the food industry will have its own specifications and guidelines as compared to another SaaS product that might follow a different set of guidelines. A game app will obviously be different from an e-commerce app. So it's important to research and gather more information and be better prepared before the start of a project.
+                  </p>
+                  <h3>
+                    Conclusion
                   </h3>
 
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nunc quis nibh lorem. Duis sed odio lorem. In a efficitur
-                    leo. Ut venenatis rhoncus quam sed condimentum. Curabitur
-                    vel turpis in dolor volutpat imperdiet in ut mi. Integer non
-                    volutpat nulla. Nunc elementum elit viverra, tempus quam
-                    non, interdum ipsum.
+                    The role of a UI / UX designer may slightly vary from one workplace to another. You can kick off your design career by mastering the fundamentals of the subject and by gaining a substantial degree that teaches you not just the theories but also practical knowledge through project based learning initiatives.
                   </p>
                 </div>
 
-                <SharePost />
+                {/* <SharePost /> */}
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </section >
     </>
   );
 };

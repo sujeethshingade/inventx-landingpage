@@ -16,7 +16,7 @@ const SingleBlogPage = async () => {
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="flex flex-col-reverse gap-7.5 lg:flex-row xl:gap-12.5">
             <div className="md:w-1/2 lg:w-[32%]">
-{/* 
+              {/* 
               <div className="animate_top mb-10 rounded-md border border-stroke bg-white p-3.5 shadow-solid-13 dark:border-strokedark dark:bg-blacksection">
                 <form
                   action="https://formbold.com/s/unique_form_id"
@@ -80,8 +80,8 @@ const SingleBlogPage = async () => {
                 <div className="mb-10 w-full overflow-hidden ">
                   <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                     <Image
-                      src={"/images/blog/blog-01.png"}
-                      alt="Kobe Steel plant that supplied"
+                      src={"/images/blog/blog-01.jpeg"}
+                      alt="The Discipline of Commerce"
                       fill
                       className="rounded-md object-cover object-center"
                     />
@@ -89,83 +89,105 @@ const SingleBlogPage = async () => {
                 </div>
 
                 <h2 className="mb-5 mt-11 text-3xl font-semibold text-black dark:text-white 2xl:text-sectiontitle2">
-                  Commerece plant
+                  The Discipline of Commerce: A choice for the seekers of versatility and learning depths
                 </h2>
 
                 <ul className="mb-9 flex flex-wrap gap-5 2xl:gap-7.5">
                   <li>
                     <span className="text-black dark:text-white">Author: </span>{" "}
-                    Jhon Doe
+                    Ankesh
                   </li>
                   <li>
                     <span className="text-black dark:text-white">
-                      Published On: July 30, 2023
+                      Published On: March 3, 2022
                     </span>{" "}
                   </li>
                   <li>
                     <span className="text-black dark:text-white">
                       Category:
-                    </span>
-                    Events
+                    </span>{" "}
+                    Study of Commerce
                   </li>
                 </ul>
 
                 <div className="blog-details">
+                  <h3>Commerce as an UnderGraduate program</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nunc quis nibh lorem. Duis sed odio lorem. In a efficitur
-                    leo. Ut venenatis rhoncus quam sed condimentum. Curabitur
-                    vel turpis in dolor volutpat imperdiet in ut mi. Integer non
-                    volutpat nulla. Nunc elementum elit viverra, tempus quam
-                    non, interdum ipsum.
+                    The Commerce stream continues to be the most preferred undergraduate programme in the field of business education, not merely on account of the fact that the center stage of this discipline has been assuming in the generation of products and services in economies and its entrepreneurial traits.
+                  </p>
+
+                  <h3>Why Choose Commerce?</h3>
+
+                  <p>
+                    The discipline of commerce as such has its innate strengths and unmatched potential. While there are a large number of strengths one can elaborate on, the most notable strength, according to me has been its ability to adapt to the emerging economic constituents with lesser lags, whether it is relating to its ability in supporting the running of start-up enterprise or in aligning with specific disciplines like accounting or reporting standards.
                   </p>
 
                   <p>
-                    Aenean augue ex, condimentum vel metus vitae, aliquam porta
-                    elit. Quisque non metus ac orci mollis posuere. Mauris vel
-                    ipsum a diam interdum ultricies sed vitae neque. Nulla
-                    porttitor quam vitae pulvinar placerat. Nulla fringilla elit
-                    sit amet justo feugiat sodales. Morbi eleifend, enim non
-                    eleifend laoreet, odio libero lobortis lectus, non porttitor
-                    sem urna sit amet metus. In sollicitudin quam est,
-                    pellentesque consectetur felis fermentum vitae.
+                    The wider application of commerce also emerges from its ability to adapt to the dynamic environment and this has been a factor that attracts talents into the Commerce stream.
                   </p>
 
-                  <div className="flex flex-wrap gap-5">
-                    <Image
-                      src={"/images/blog/blog-01.png"}
-                      width={350}
-                      height={200}
-                      alt="image"
-                    />
-                    <Image
-                      src={"/images/blog/blog-02.png"}
-                      width={350}
-                      height={200}
-                      alt="image"
-                    />
-                  </div>
+                  <h3>Commerce Career Options</h3>
 
-                  <h3 className="pt-8">
-                    Nunc elementum elit viverra, tempus quam non
+
+                  <Image
+                    src={"/images/blog/commerce/commerce-01.png"}
+                    width={850}
+                    height={300}
+                    alt="image"
+                  />
+                  <div className="p-6 md:p-6 lg:p-6"></div>
+                  <p>
+                    A commerce graduate has the tools to conceive, plan and introduce business enterprise in addition to contributing to the functioning of an existing enterprise, that too with ease.
+                  </p>
+
+                  <p>
+                    The versatility of the discipline supports the seeker to specialise areas that best fits the interest; As a professional accountant, reporting specialist, business person, a start-up specialist, venture capitalist or even as an academic.
+                  </p>
+
+                  <h3>Importance of a unique pedagogical structure in the Commerce Stream</h3>
+
+                  <Image
+                    src={"/images/blog/commerce/commerce-02.png"}
+                    width={850}
+                    height={300}
+                    alt="image"
+                  />
+                  <div className="p-6 md:p-6 lg:p-6"></div>
+                  <p>
+                    The versatility of the Commerce discipline can be further enhanced if the pedagogical structure is able to support the introduction of processes that strengthen the foundations for character development. This can be vital boosting factor for undergraduate students.
+                  </p>
+                  <p>
+                    In order to provide an opportunity to students to discover an appropriate method of thinking which will help them realise their true potential, an enabling and structured teaching-learning experience in a more student-centric manner is all the more necessary. This would ensure that the courses are flexible with choices.
+                  </p>
+                  <p>
+                    In addition to the exposure in languages and critical thinking, the students deserve to be exposed to different career tracks supported by enhanced teacher – learner interactions.
+                  </p>
+                  <p>
+                    My considerate submission is that the hard skills must be equally honed up through the ability to think and interact proactively so that the students will be open to ideas and thereby ensure adaptability to emerging scenarios.
+                  </p>
+                  <p>
+                    The Undergraduate Programmes must focus on ‘preparing minds’, to take advantage of the hard skills learned as part of the curriculum.
+                  </p>
+                  <p>
+                    This will create individuals who will have intellectual prowess, interactive competence, courage to lead the world and also compassion and empathy for fellow human beings.
+                  </p>
+
+
+                  <h3>
+                    Conclusion
                   </h3>
 
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nunc quis nibh lorem. Duis sed odio lorem. In a efficitur
-                    leo. Ut venenatis rhoncus quam sed condimentum. Curabitur
-                    vel turpis in dolor volutpat imperdiet in ut mi. Integer non
-                    volutpat nulla. Nunc elementum elit viverra, tempus quam
-                    non, interdum ipsum.
+                    Thus, the right balance of strengthening employability skills but also at imparting to them vital life-skills required to lead a happy personal and social life. These aspects perhaps make the Commerce Stream highly versatile.
                   </p>
                 </div>
 
-                <SharePost />
+                {/* <SharePost /> */}
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </section >
     </>
   );
 };

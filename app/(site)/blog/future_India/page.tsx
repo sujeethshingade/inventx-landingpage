@@ -16,7 +16,7 @@ const SingleBlogPage = async () => {
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="flex flex-col-reverse gap-7.5 lg:flex-row xl:gap-12.5">
             <div className="md:w-1/2 lg:w-[32%]">
-{/* 
+              {/* 
               <div className="animate_top mb-10 rounded-md border border-stroke bg-white p-3.5 shadow-solid-13 dark:border-strokedark dark:bg-blacksection">
                 <form
                   action="https://formbold.com/s/unique_form_id"
@@ -80,8 +80,8 @@ const SingleBlogPage = async () => {
                 <div className="mb-10 w-full overflow-hidden ">
                   <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                     <Image
-                      src={"/images/blog/blog-01.png"}
-                      alt="Kobe Steel plant that supplied"
+                      src={"/images/blog/blog-04.png"}
+                      alt="Rewriting The Future of Young India with a Liberal Art Education"
                       fill
                       className="rounded-md object-cover object-center"
                     />
@@ -89,78 +89,122 @@ const SingleBlogPage = async () => {
                 </div>
 
                 <h2 className="mb-5 mt-11 text-3xl font-semibold text-black dark:text-white 2xl:text-sectiontitle2">
-                  Future India
+                  Rewriting The Future of Young India with a Liberal Art Education
                 </h2>
 
                 <ul className="mb-9 flex flex-wrap gap-5 2xl:gap-7.5">
                   <li>
                     <span className="text-black dark:text-white">Author: </span>{" "}
-                    Jhon Doe
+                    RV University
                   </li>
                   <li>
                     <span className="text-black dark:text-white">
-                      Published On: July 30, 2023
+                      Published On: March 3, 2022
                     </span>{" "}
                   </li>
                   <li>
                     <span className="text-black dark:text-white">
                       Category:
-                    </span>
-                    Events
+                    </span>{" "}
+                    Liberal Arts Courses
                   </li>
                 </ul>
 
                 <div className="blog-details">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nunc quis nibh lorem. Duis sed odio lorem. In a efficitur
-                    leo. Ut venenatis rhoncus quam sed condimentum. Curabitur
-                    vel turpis in dolor volutpat imperdiet in ut mi. Integer non
-                    volutpat nulla. Nunc elementum elit viverra, tempus quam
-                    non, interdum ipsum.
-                  </p>
+
+                  <h3>What is Liberal Arts Education?</h3>
 
                   <p>
-                    Aenean augue ex, condimentum vel metus vitae, aliquam porta
-                    elit. Quisque non metus ac orci mollis posuere. Mauris vel
-                    ipsum a diam interdum ultricies sed vitae neque. Nulla
-                    porttitor quam vitae pulvinar placerat. Nulla fringilla elit
-                    sit amet justo feugiat sodales. Morbi eleifend, enim non
-                    eleifend laoreet, odio libero lobortis lectus, non porttitor
-                    sem urna sit amet metus. In sollicitudin quam est,
-                    pellentesque consectetur felis fermentum vitae.
+                    The term "liberal arts" was coined by the German philosopher and mathematician Gottfried Wilhelm Leibniz in 1678. It now refers to a broad range of academic disciplines, including the humanities, natural sciences, social sciences, mathematics, history, and languages. In liberal arts colleges and universities, students study a diverse array of subjects from different fields to better prepare themselves for the working world after graduation.
                   </p>
+
+                  <h3>Reforms in the Education System</h3>
+
+                  <p>
+                    Traditionally, this system was criticized for not equipping students with the skills needed to succeed in today's economy. The logic behind this argument was that all you need to know to master a good job is taught in math and science classes. However, these criticisms are now being used as reason for further reforms of liberal arts education.
+                  </p>
+                  <p>
+                    One of the most significant changes in liberal arts education has been the liberal arts core curriculum. These new curricula include a set of courses that help students think critically and learn how to be productive citizens in a diverse world. Rather than having one curriculum, many colleges are now giving students the opportunity to choose their own courses, which is important because it gives them the chance to constructively reflect on their education.
+                  </p>
+
+                  <h3>History of Liberal Arts</h3>
 
                   <div className="flex flex-wrap gap-5">
                     <Image
-                      src={"/images/blog/blog-01.png"}
-                      width={350}
-                      height={200}
-                      alt="image"
-                    />
-                    <Image
-                      src={"/images/blog/blog-02.png"}
-                      width={350}
-                      height={200}
+                      src={"/images/blog/future_India/future_India-01.png"}
+                      width={850}
+                      height={300}
                       alt="image"
                     />
                   </div>
+                  <div className="p-6 md:p-6 lg:p-6"></div>
 
-                  <h3 className="pt-8">
-                    Nunc elementum elit viverra, tempus quam non
+                  <p>
+                    The study of Liberal Arts can be traced back to Ancient Greeks, who considered this subject to be an ultimate mark for identifying an educated person. In the classical antiquity era, liberal arts education involved subjects like rhetoric, grammar and logic in order to make people eligible to participate in public debates, serve in court and military services. Later on, in the medieval times, other subjects like geometry, arithmetic, astronomy and music were included as a part of liberal education.
+                  </p>
+                  <p>
+                    At present times, a liberal arts education provides students the opportunity to study a wider range of subjects, with the core aim being the same - development of well-rounded individuals having adequate knowledge and skills in multiple fields.
+                  </p>
+
+                  <h3>Benefits of Liberal Arts Education</h3>
+
+                  <p>
+                    When you acquire varied knowledge along with strong critical thinking and analytical skills, you can easily be flexible and adapt yourself in the ever changing global market. Apart from that, here are some key benefits of having a liberal arts degree -
+                  </p>
+                  <p>
+                    Job opportunities in multiple sectors: Having a strong foundation in a wide range of subjects can prepare you for a career in various fields, as opposed to having a degree with just one subject for specialization. Being trained in multiple arenas will help you have a plethora of career options, and your broad skill set will be seen as an asset.
+                  </p>
+                  <p>
+                    Explore human experience: Students get to study how the educational approach has evolved over centuries in different academic disciplines - science to literature to design - and develop a great insight through multiple perspectives into the human experience.
+                  </p>
+                  <p>
+                    Hone critical thinking skills: Be it to explore your personal interests, solve complex issues, satisfying your curiosity or unleashing creativity, liberal education provides an open-ended educational experience that helps increase your critical thinking abilities. This is because the focus here is not to build something technical for a specific purpose, but to understand how something affects an individual and the society and derive a solution that benefits all.
+                  </p>
+                  <p>
+                    Multidisciplinary perspective: By exploring different cultures, human experiences and philosophies, you gain a multidisciplinary perspective and a broader worldview, which is what most global companies are looking for at present times.
+                  </p>
+
+                  <h3>Career Options with a Liberal Arts Degree</h3>
+
+                  <div className="flex flex-wrap gap-5">
+                    <Image
+                      src={"/images/blog/future_India/future_India-02.png"}
+                      width={850}
+                      height={300}
+                      alt="image"
+                    />
+                  </div>
+                  <div className="p-6 md:p-6 lg:p-6"></div>
+
+                  <p>
+                    Employers are always looking for creative team members who can contribute to help solve complex issues, which is why a liberal arts education opens up opportunities in various industries. Some of the career options include
+                    Teacher/Professor,
+                    Engineering,
+                    IT Industry,
+                    Healthcare & Pharma Industry,
+                    Data Scientist,
+                    Environmentalist,
+                    Entrepreneurship,
+                    Writing,
+                    Civil Services,
+                    Journalism & Social Media Management,
+                    Writer / Author,
+                    Graphic Designer / Artist,
+                    Social Work & Public Policy,
+                    Human Resources Specialist,
+                    Communications & Public Relations Specialist.
+                  </p>
+
+                  <h3>
+                    Conclusion
                   </h3>
 
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nunc quis nibh lorem. Duis sed odio lorem. In a efficitur
-                    leo. Ut venenatis rhoncus quam sed condimentum. Curabitur
-                    vel turpis in dolor volutpat imperdiet in ut mi. Integer non
-                    volutpat nulla. Nunc elementum elit viverra, tempus quam
-                    non, interdum ipsum.
+                    Liberal arts majors teach students how to think critically and solve problems, which is an incredibly valuable skill in any career. Universities now offer more flexible degree programs so students can customize their education based on what they want to do after graduation.
                   </p>
                 </div>
 
-                <SharePost />
+                {/* <SharePost /> */}
               </div>
             </div>
           </div>

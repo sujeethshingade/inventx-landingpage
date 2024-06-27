@@ -16,7 +16,7 @@ const SingleBlogPage = async () => {
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="flex flex-col-reverse gap-7.5 lg:flex-row xl:gap-12.5">
             <div className="md:w-1/2 lg:w-[32%]">
-{/* 
+              {/* 
               <div className="animate_top mb-10 rounded-md border border-stroke bg-white p-3.5 shadow-solid-13 dark:border-strokedark dark:bg-blacksection">
                 <form
                   action="https://formbold.com/s/unique_form_id"
@@ -80,8 +80,8 @@ const SingleBlogPage = async () => {
                 <div className="mb-10 w-full overflow-hidden ">
                   <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                     <Image
-                      src={"/images/blog/blog-01.png"}
-                      alt="Kobe Steel plant that supplied"
+                      src={"/images/blog/blog-03.png"}
+                      alt="Filmmaking, an Art of Storytelling"
                       fill
                       className="rounded-md object-cover object-center"
                     />
@@ -89,78 +89,108 @@ const SingleBlogPage = async () => {
                 </div>
 
                 <h2 className="mb-5 mt-11 text-3xl font-semibold text-black dark:text-white 2xl:text-sectiontitle2">
-                  Art
+                  Filmmaking, an Art of Storytelling
                 </h2>
 
                 <ul className="mb-9 flex flex-wrap gap-5 2xl:gap-7.5">
                   <li>
                     <span className="text-black dark:text-white">Author: </span>{" "}
-                    Jhon Doe
+                    RV University
                   </li>
                   <li>
                     <span className="text-black dark:text-white">
-                      Published On: July 30, 2023
+                      Published On: March 3, 2022
                     </span>{" "}
                   </li>
                   <li>
                     <span className="text-black dark:text-white">
                       Category:
-                    </span>
-                    Events
+                    </span>{" "}
+                    Filmmaking Art
                   </li>
                 </ul>
 
                 <div className="blog-details">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nunc quis nibh lorem. Duis sed odio lorem. In a efficitur
-                    leo. Ut venenatis rhoncus quam sed condimentum. Curabitur
-                    vel turpis in dolor volutpat imperdiet in ut mi. Integer non
-                    volutpat nulla. Nunc elementum elit viverra, tempus quam
-                    non, interdum ipsum.
+                    Do you ever wonder how directors, cinematographers, and the like are able to create content with such precision? How wonderfully are they able to capture the essence of the story and communicate it to the audience? How watching a film sometimes seems like we are watching reality?
                   </p>
 
                   <p>
-                    Aenean augue ex, condimentum vel metus vitae, aliquam porta
-                    elit. Quisque non metus ac orci mollis posuere. Mauris vel
-                    ipsum a diam interdum ultricies sed vitae neque. Nulla
-                    porttitor quam vitae pulvinar placerat. Nulla fringilla elit
-                    sit amet justo feugiat sodales. Morbi eleifend, enim non
-                    eleifend laoreet, odio libero lobortis lectus, non porttitor
-                    sem urna sit amet metus. In sollicitudin quam est,
-                    pellentesque consectetur felis fermentum vitae.
+                    Well, filmmaking is truly an art! A gripping story line and cinematography will ensure that your audience invest their mind and heart completely into your film.
                   </p>
 
+                  <h3>The Role of Film in Today's Society</h3>
+
                   <div className="flex flex-wrap gap-5">
+
                     <Image
-                      src={"/images/blog/blog-01.png"}
-                      width={350}
-                      height={200}
-                      alt="image"
-                    />
-                    <Image
-                      src={"/images/blog/blog-02.png"}
-                      width={350}
-                      height={200}
+                      src={"/images/blog/art/art-01.png"}
+                      width={850}
+                      height={300}
                       alt="image"
                     />
                   </div>
+                  <div className="p-6 md:p-6 lg:p-6"></div>
+                  <p>
+                    Film, unlike any other medium, is able to tell the story of our world in a new and exciting way. It has the ability to reach people from all walks of life and offer them something different. Film can be used as a form of entertainment, social commentary, or education. In today's society, film is more important than ever before- it is imperative that filmmakers understand the power behind their craft and make sure they're using it as wisely as possible.
+                  </p>
 
-                  <h3 className="pt-8">
-                    Nunc elementum elit viverra, tempus quam non
+                  <h3>Importance of storytelling for a filmmaker?</h3>
+
+                  <div className="flex flex-wrap gap-5">
+
+                    <Image
+                      src={"/images/blog/art/art-02.png"}
+                      width={850}
+                      height={300}
+                      alt="image"
+                    />
+                  </div>
+                  <div className="p-6 md:p-6 lg:p-6"></div>
+
+                  <p>
+                    Storytelling is an integral part of a film as it creates elements that are full of wonder, sentiment, humor and intrigue. The real art of storytelling lies in writing and creating characters who can resonate and engage with the audience.Though there are other crucial aspects like location, lighting, visual effects, casting, camera angles, etc…the heart of a film lies in the story. If your story is not able to enthral or hold your audience’s attention, then irrespective of how good the locale or the visual effects are, you will still be conveying only the wonderful technical aspects of the movie but not the emotional element that is imperative to the film’s success
+                  </p>
+
+                  <h3>
+                    How to improve your creativity while making a film or telling a story?
                   </h3>
 
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nunc quis nibh lorem. Duis sed odio lorem. In a efficitur
-                    leo. Ut venenatis rhoncus quam sed condimentum. Curabitur
-                    vel turpis in dolor volutpat imperdiet in ut mi. Integer non
-                    volutpat nulla. Nunc elementum elit viverra, tempus quam
-                    non, interdum ipsum.
+                    One of the most difficult obstacles in your filmmaking journey is having a lack of creativity. Sometimes, even when we are at our best, inspiration can be hard to come by and we can't seem to make progress towards our goals. The need behind being creative is that it makes your story a lot more interesting and exciting and it will also strike a chord with your audience.
+                  </p>
+                  <p>
+                    Seeing the world from different perspectives is an essential skill for a filmmaker. Therefore, being able to work on these ideas, understanding the importance of storytelling and combining them with technical film-making expertise will bring a great amount of value to your films.
+                  </p>
+
+                  <h3>
+                    Best creative practices that top filmmakers follow
+                  </h3>
+
+                  <p>
+                    Spend some alone time and brainstorm: Though very cliche, this point by far is the most important aspect when you are trying to create a story plot. You should first be able to convince yourself before you go on and convince others. Therefore, to brainstorm on your existing ideas to create elements of intrigue and surprise and also find ways to make your audience laugh is key to telling your story. So, sit alone, let your thoughts wander and find those connecting elements that will lead you to an irresistible plot.
+                  </p>
+                  <p>
+                    Watch the works of your favourite film-makers: What better way to get inspired by someone you respect and admire. Every film-maker has his unique style of storytelling, and one day you will want yours too, but there is no harm in finding inspiration from the master story-tellers and gaining some insights to make your story better.
+                  </p>
+                  <p>
+                    Watch the works of your favourite film-makers: What better way to get inspired by someone you respect and admire. Every film-maker has his unique style of storytelling, and one day you will want yours too, but there is no harm in finding inspiration from the master story-tellers and gaining some insights to make your story better.
+
+                  </p>
+
+                  <h3>
+                    Conclusion
+                  </h3>
+
+                  <p>
+                    You are the master who is responsible for the quality of your work. Therefore, you should showcase your ideas with confidence and believe in your work. After all, a true film maker might get inspired by his ideas, but his role is actually to inspire millions of spectators and show them something new. The art of filmmaking can be an exceedingly rewarding experience to the creator of the film!
+                  </p>
+                  <p>
+                    There is also the aspect of the Science of Filmmaking, that is equally important to bring your story to life. Using the right visual and audio elements to achieve the right kind of engagement is also quite crucial while making a film.
                   </p>
                 </div>
 
-                <SharePost />
+                {/* <SharePost /> */}
               </div>
             </div>
           </div>
