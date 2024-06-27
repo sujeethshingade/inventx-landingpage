@@ -61,7 +61,7 @@ export const HeroSection = ({
   return (
     <div
       ref={ref}
-      className="h-[250vh] py-40 overflow-hidden antialiased relative flex flex-col self-auto perspective:1000px transform-style:preserve-3d"
+      className="h-[240vh] pt-40 overflow-hidden antialiased relative flex flex-col self-auto perspective:1000px transform-style:preserve-3d"
     >
       <Header />
       <motion.div
@@ -147,7 +147,7 @@ export const Header = () => {
         </div>
       </div> */}
       <div className="h-[20rem] w-full flex flex-col items-center justify-center overflow-hidden rounded-md">
-      <div className="flex justify-center items-center mt-10">
+        <div className="flex justify-center items-center mt-10">
           <h1 className="md:text-6xl text-4xl lg:text-8xl font-bold text-center dark:text-white text-black relative z-20">
             Invent
           </h1>
@@ -169,7 +169,7 @@ export const Header = () => {
             maxSize={1}
             particleDensity={2500}
             className="w-full h-full"
-            particleColor="#5BBFAF"
+            particleColor="#000000"
           />
   
           {/* Radial Gradient to prevent sharp edges */}
@@ -200,15 +200,13 @@ export const ProductCard = ({
         y: -20,
       }}
       key={product.title}
-      className="group/product h-96 w-[30rem] relative flex-shrink-0 rounded-lg overflow-hidden"
+      className="group/product h-80 w-[30rem] relative flex-shrink-0 rounded-lg overflow-hidden"
     >
       <Link href={product.link} className="block group-hover/product:shadow-2xl">
-        <div className="relative h-full w-full overflow-hidden rounded-lg">
+        <div className="relative h-400 w-500 overflow-hidden rounded-lg">
           <Image
             src={product.thumbnail}
-            height="600"
-            width="600"
-            layout="responsive"
+            fill={true}
             className="object-cover object-left-top"
             alt={product.title}
           />
