@@ -14,7 +14,30 @@ import ToasterContext from "../context/ToastContext";
 import { TracingBeam } from "@/components/Tracing-beam/tracing";
 import { GridSmallBackground } from "@/components/Background";
 import InfiniteScrollText from "@/components/Footer/InfiniteScroll";
+import { RecoilRoot, useRecoilValue } from "recoil";
+import { HamMenuState } from "@/store/HamMenu/atom";
 
+function LayoutContent({ children }: { children: React.ReactNode }) {
+  const isOpen = useRecoilValue(HamMenuState);
+  return (
+    <>
+      {isOpen ? (
+        <Header />
+      ) : (
+        <body className={`dark:bg-black ${inter.className} overflow-x-hidden`}>
+          <GridSmallBackground>
+            <Header />
+            <CustomCursor />
+            <ToasterContext />
+            {children}
+            <Footer />
+            <ScrollToTop />
+          </GridSmallBackground>
+        </body>
+      )}
+    </>
+  );
+}
 
 export default function RootLayout({
   children,
@@ -23,26 +46,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      
-      <body className={`dark:bg-black ${inter.className} overflow-x-hidden`}>
-      <GridSmallBackground>
-        {/* <ThemeProvider
-          enableSystem={false}
-          attribute="class"
-          defaultTheme="light"
-        > */}
-          <Header />
-          <CustomCursor />
-          
-          <ToasterContext />
-          {children}
-          <Footer />
-          {/* <InfiniteScrollText/> */}
-          <ScrollToTop />
-        {/* </ThemeProvider> */}
-      </GridSmallBackground>
-      </body>
-      
+      <RecoilRoot>
+        <LayoutContent>{children}</LayoutContent>
+      </RecoilRoot>
     </html>
   );
 }
