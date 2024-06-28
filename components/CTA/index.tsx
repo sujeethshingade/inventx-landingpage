@@ -6,7 +6,7 @@ const content = [
   {
     title: "Inventx as an Ideation platform",
     description:
-      "At InventX, we believe in the power of youthful creativity and bold ideas. We're not just a platform; we're a movement fuelled by the ambition of RV institution students who are reimagining industries, solving global challenges, and shaping the future. Join us as we redefine innovation and investment in the digital age.",
+      "At InventX, we believe in the power of GenZ creativity to transform industries and shape the future. Dive into a world where bold ideas from RV institution students are nurtured, celebrated, and propelled to success. Whether you’re a visionary creator or an investor seeking pioneering ventures, InventX is your gateway to groundbreaking innovation.",
       content: (
         <div className="h-full w-full  flex items-center justify-center text-black">
           <Image
