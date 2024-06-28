@@ -1,86 +1,85 @@
-// Footer.tsx
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import SharePost from '../Blog/SharePost';
 import InfiniteScrollText from './InfiniteScroll';
 
 const Footer = () => {
-  return (<>
+  return (
+    <>
       <div className='border'>
-        <div className="bg-white text-black p-10">
-          <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="bg-white text-black p-10 sm:p-10">
+          <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-center">
             <div>
-              <Image src="images/logo/logo-light.svg" alt="Logo" width={200} height={100} className="mb-4" />
-              <p>Domestico.pl - Twój sklep internetowy.</p>
+              <Image src="/images/logo/logo-light.svg" alt="Logo" width={200} height={100} className="mb-4 mx-auto" />
+              <p>Where Innovation knows </p> <p>no Boundaries.</p>
+              <div>
+                <SharePost />
+              </div>
             </div>
             <div>
-              <h3 className="font-bold mb-3">Persona</h3>
-              <ul>
+              <h3 className="font-bold mb-8">Persona</h3>
+              <ul className="space-y-3">
                 <li>
-                  <Link href="/category/new-arrivals">
-                    <span className="cursor-pointer hover:underline">Alumni</span>
+                  <Link href="#">
+                    <span className="cursor-pointer hover:text-primary">Alumni</span>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/category/sale">
-                    <span className="cursor-pointer hover:underline">Student</span>
+                  <Link href="#">
+                    <span className="cursor-pointer hover:text-primary">Student</span>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/category/top-rated">
-                    <span className="cursor-pointer hover:underline">Investor</span>
+                  <Link href="#">
+                    <span className="cursor-pointer hover:text-primary">Investor</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="#">
+                    <span className="cursor-pointer hover:text-primary">Professor</span>
                   </Link>
                 </li>
               </ul>
             </div>
             <div>
-              <h3 className="font-bold mb-3">Resources</h3>
-              <ul>
+              <h3 className="font-bold mb-8">Resources</h3>
+              <ul className="space-y-3">
                 <li>
-                  <Link href="/about">
-                    <span className="cursor-pointer hover:underline">O nas</span>
+                  <Link href="#">
+                    <span className="cursor-pointer hover:text-primary">Blog</span>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/contact">
-                    <span className="cursor-pointer hover:underline">Kontakt</span>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/policy">
-                    <span className="cursor-pointer hover:underline">Polityka prywatności</span>
+                  <Link href="#">
+                    <span className="cursor-pointer hover:text-primary">FAQ</span>
                   </Link>
                 </li>
               </ul>
             </div>
             <div>
-              <h3 className="font-bold mb-3">Company</h3>
-              <ul>
+              <h3 className="font-bold mb-8">Company</h3>
+              <ul className="space-y-3">
                 <li>
-                  <Link href="/account/orders">
-                    <span className="cursor-pointer hover:underline">Moje zamówienia</span>
+                  <Link href="#">
+                    <span className="cursor-pointer hover:text-primary">About Us</span>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/account/settings">
-                    <span className="cursor-pointer hover:underline">Ustawienia konta</span>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/account/help">
-                    <span className="cursor-pointer hover:underline">Pomoc</span>
+                  <Link href="#">
+                    <span className="cursor-pointer hover:text-primary">Contact Us</span>
                   </Link>
                 </li>
               </ul>
-            </div>
+            </div> 
           </div>
-          <div className="text-center pt-8 border-t border-gray-700 mt-8">
-            <p>&copy; {new Date().getFullYear()} Domestico.pl Wszelkie prawa zastrzeżone.</p>
+          <div className="flex justify-center items-center pt-4 sm:pt-8 border-t border-gray-200 mt-4 sm:mt-8">
+            <p className="text-center">Copyright &copy; {new Date().getFullYear()} InventX. All Rights Reserved</p>
           </div>
         </div>
       </div>
       <div>
-        <InfiniteScrollText/>
+        <InfiniteScrollText />
       </div>
     </>
   );

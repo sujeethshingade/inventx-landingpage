@@ -4,12 +4,12 @@ const SharePost = () => {
       <div className="mt-11 flex flex-wrap gap-4 md:items-center md:justify-between md:gap-0">
         <ul className="flex items-center gap-6">
           <li>
-            <p className="text-black dark:text-white">Share On:</p>
+          {/* }  <p className="text-black dark:text-white">Share On:</p> */}
           </li>
           <li>
             <a href="#" aria-label="social link">
               <svg
-                className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"
+                className="fill-[#1C2120] transition-all duration-300 hover:fill-primary"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
@@ -33,7 +33,7 @@ const SharePost = () => {
           <li>
             <a href="#" aria-label="social link">
               <svg
-                className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"
+                className="fill-[#1C2120] transition-all duration-300 hover:fill-primary"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
@@ -57,7 +57,7 @@ const SharePost = () => {
           <li>
             <a href="#" aria-label="social link">
               <svg
-                className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"
+                className="fill-[#1C2120] transition-all duration-300 hover:fill-primary"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
@@ -81,7 +81,7 @@ const SharePost = () => {
           <li>
             <a href="#" aria-label="social link">
               <svg
-                className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"
+                className="fill-[#1C2120] transition-all duration-300 hover:fill-primary"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
@@ -99,7 +99,7 @@ const SharePost = () => {
             </a>
           </li>
         </ul>
-
+{/*}
         <ul className="flex items-center gap-4">
           <li>
             <p className="text-black dark:text-white">Tags:</p>
@@ -117,6 +117,7 @@ const SharePost = () => {
             </a>
           </li>
         </ul>
+        */}
       </div>
     </>
   );
