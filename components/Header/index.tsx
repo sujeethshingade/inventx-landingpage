@@ -18,8 +18,8 @@ export default function Header() {
 
     return (
       <>
-        <header className="relative z-9999 bg-white">
-          <div className="w-screen h-18 bg-white shadow flex justify-center items-center font-semibold">
+        <header className="sticky top-0 z-[9999] bg-white">
+          <div className="w-screen h-14 bg-white shadow flex justify-center items-center font-semibold lg:px-16 px-4">
             <nav className="flex items-center w-full mr-12 lg:mx-16">
                 <div className="flex justify-between items-center w-full">
                     <div className="h-full w-48" onClick={() => router.push("/")}>
@@ -27,7 +27,7 @@ export default function Header() {
                             src="/images/logo/logo-light.svg"
                             width={500}
                             height={200}
-                            alt="Picture of the author"
+                            alt="Logo"
                             className="cursor-pointer"
                         />
                     </div>
@@ -41,7 +41,7 @@ export default function Header() {
                         <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
                       </svg>
                     </div>
-                    <div className="hidden lg:flex justify-between items-center text-waterloo">
+                    <div className="hidden lg:flex justify-between items-center text-black">
                         {menuData.map((item, index) => (
                             <div key={index} className="m-8 cursor-pointer hover:text-primary" 
                             onClick={() => {
@@ -52,9 +52,9 @@ export default function Header() {
                             </div>
                         ))}
                     </div>
-                    <div className="hidden lg:flex justify-between items-center text-waterloo">
-                        <div className="m-8 cursor-pointer hover:text-primary">Signup</div>
-                        <div className="m-8 cursor-pointer w-20 h-12 hover:text-black hover:bg-primary p-3 border-2 rounded-3xl flex justify-center items-center">
+                    <div className="hidden lg:flex justify-between items-center text-black">
+                        <div className="m-0 cursor-pointer hover:text-primary">Sign Up</div>
+                        <div className="m-8 cursor-pointer w-20 h-10 hover:text-black hover:bg-primary p-3 border-2 rounded-3xl flex justify-center items-center">
                             Login
                         </div>
                     </div>
