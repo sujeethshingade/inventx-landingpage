@@ -13,7 +13,7 @@ const Footer = () => {
             <div>
               <Image src="/images/logo/logo-light.svg" alt="Logo" width={200} height={100} className="mb-4 mx-auto" />
               <p>Where Innovation knows </p> <p>no Boundaries.</p>
-              <div>
+              <div className="w-full flex justify-center mt-4">
                 <SharePost />
               </div>
             </div>
@@ -71,7 +71,7 @@ const Footer = () => {
                   </Link>
                 </li>
               </ul>
-            </div> 
+            </div>
           </div>
           <div className="flex justify-center items-center pt-4 sm:pt-8 border-t border-gray-200 mt-4 sm:mt-8">
             <p className="text-center">Copyright &copy; {new Date().getFullYear()} InventX. All Rights Reserved</p>
