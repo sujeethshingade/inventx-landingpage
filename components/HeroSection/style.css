@@ -2,10 +2,10 @@
 .gradientext {
     background: linear-gradient(
         to right,
-        #cd49db 20%,
-        #bd72a9 30%,
-        #620fcf 70%,
-        #aea4c4 80%
+        #FF204E 20%,
+        #A0153E 30%,
+        #00224D 70%,
+        #5D0E41 80%
     );
     -webkit-background-clip: text;
     background-clip: text;
@@ -14,7 +14,7 @@
     background-size: 500% auto;
     animation: textShine 10s ease-in-out infinite alternate;
     font-family:Arial, Helvetica, sans-serif;
-    font-weight: 1000;
+    font-weight: 750;
  
 }
 
