@@ -9,9 +9,20 @@ export default function about() {
                 <About/>
             </div>
         </div>
-        <div className="pt-20">
-            <StickyScrollRevealDemo/>
-            {/* <Contact /> */}
+    <div className="text-center text-2xl text-primary font-semibold pt-30">
+        OUR VALUES
+    </div>
+
+    <div className="flex justify-center items-center text-3xl md:text-4xl lg:text-5xl text-black font-medium pt-10">
+        What we stand for?
+    </div>
+
+      <div className="flex justify-center items-center"> 
+    <div className="py-20 w-3/4 md:3/4 lg:2/3">
+    <StickyScrollRevealDemo/>
+        {/* <Contact />
+        <About/> */}
+        </div>
         </div>
     </>
 }

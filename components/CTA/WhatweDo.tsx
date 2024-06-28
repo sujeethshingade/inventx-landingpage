@@ -41,9 +41,9 @@ export const WhatweDo = ({
   });
 
   const backgroundColors = [
-    "var(--slate-200)",
-    "var(--white)",
-    "var(--neutral-200)",
+    "var(--slate-900)",
+    "var(--black)",
+    "var(--neutral-900)",
   ];
   const linearGradients = [
     "linear-gradient(to bottom right, var(--cyan-500), var(--emerald-500))",
@@ -64,7 +64,7 @@ export const WhatweDo = ({
       animate={{
         backgroundColor: backgroundColors[activeCard % backgroundColors.length],
       }}
-      className="h-[40rem] overflow-y-auto flex justify-center relative space-x-10 rounded-md p-10 scrollbar-hide styles.overflowScroll "
+      className="h-[30rem] overflow-y-auto flex justify-center relative space-x-10 rounded-md p-10"
       ref={ref}
     >
       <div className="div relative flex items-start px-4">
@@ -78,7 +78,7 @@ export const WhatweDo = ({
                 animate={{
                   opacity: activeCard === index ? 1 : 0.3,
                 }}
-                className="text-2xl font-bold text-black"
+                className="text-2xl font-bold text-slate-100"
               >
                 {item.title}
               </motion.h2>
@@ -89,7 +89,7 @@ export const WhatweDo = ({
                 animate={{
                   opacity: activeCard === index ? 1 : 0.3,
                 }}
-                className="text-kg text-black max-w-sm mt-10"
+                className="text-kg text-slate-300 max-w-sm mt-10"
               >
                 {item.description}
               </motion.p>
