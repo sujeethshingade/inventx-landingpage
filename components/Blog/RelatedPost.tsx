@@ -3,7 +3,17 @@ import Image from "next/image";
 import Link from "next/link";
 import BlogData from "./blogData";
 
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
 const RelatedPost = async () => {
+  let num = Math.random() * BlogData.length;
+  const shuffledBlogData = shuffleArray([...BlogData]);
   return (
     <>
       <div className="animate_top rounded-md border border-stroke bg-white p-9 shadow-solid-13 dark:border-strokedark dark:bg-blacksection">
@@ -12,7 +22,7 @@ const RelatedPost = async () => {
         </h4>
 
         <div>
-          {BlogData.slice(0, 3).map((post, key) => (
+          {shuffledBlogData.slice(0, 3).map((post, key) => (
             <div
               className="mb-7.5 flex flex-wrap gap-4 xl:flex-nowrap 2xl:gap-6"
               key={key}
@@ -25,7 +35,7 @@ const RelatedPost = async () => {
                 )}
               </div>
               <h5 className="text-md font-medium text-black transition-all duration-300 hover:text-primary dark:text-white dark:hover:text-primary">
-                <Link href={`/blog/blog-details`}>
+                <Link href={post.link}>
                   {" "}
                   {post.title.slice(0, 40)}...
                 </Link>

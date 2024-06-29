@@ -182,7 +182,7 @@ const SingleBlogPage = async () => {
                   </p>
                 </div>
 
-                {/* <SharePost /> */}
+                <SharePost />
               </div>
             </div>
           </div>
