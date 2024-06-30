@@ -5,7 +5,6 @@ import menuData from "./menuData";
 import { useRouter } from "next/navigation";
 import { useRecoilState } from "recoil";
 import { HamMenuState } from "@/store/HamMenu/atom";
-import { useIsomorphicLayoutEffect } from "framer-motion";
 import { HamMenu } from "./hamMenu";
 
 export default function Header() {

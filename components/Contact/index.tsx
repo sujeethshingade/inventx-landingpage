@@ -1,8 +1,6 @@
 "use client"
 
-import Image from "next/image"
-
-export function Contact() {
+export default function Contact() {
   return <>
     <div className="w-11/12 md:w-4/5 bg-white border shadow-sm p-10 text-black flex justify-around">
       <div>

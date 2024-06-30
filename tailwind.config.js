@@ -133,6 +133,7 @@ module.exports = {
         "600": "600px",
         "300": "300px",
         "200": "200px",
+        "86": "22rem"
       },
       transitionProperty: { width: "width" },
       boxShadow: {

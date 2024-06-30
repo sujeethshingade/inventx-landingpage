@@ -63,7 +63,7 @@ export const HeroSection = ({
     
     <div
       ref={ref}
-      className="h-[250vh] py-40 overflow-hidden antialiased relative flex flex-col self-auto perspective:1000px transform-style:preserve-3d"
+      className="h-[175vh] md:h-[190vh] lg:h-[220vh] py-40 overflow-hidden antialiased relative flex flex-col self-auto perspective:1000px transform-style:preserve-3d"
     >
   
       <Header />
@@ -147,15 +147,14 @@ export const ProductCard = ({
         y: -10,
       }}
       key={product.title}
-      className="group/product h-96 w-[30rem] relative flex-shrink-0 rounded-lg overflow-hidden"
+      className="group/product h-64 w-[20rem] md:h-72 md:w-[23rem] lg:h-86 lg:w-[30rem] relative flex-shrink-0 rounded-lg overflow-hidden"
     >
       <Link href={product.link} className="block group-hover/product:shadow-2xl">
-        <div className="relative h-full w-full overflow-hidden rounded-lg">
+        <div className="relative h-400 w-400 lg:h-400 lg:w-600 overflow-hidden rounded-lg">
           <Image
             src={product.thumbnail}
-            height="600"
-            width="600"
-            layout="responsive"
+            layout="fill" 
+            objectFit="cover"
             className="object-cover object-left-top"
             alt={product.title}
           />

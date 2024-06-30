@@ -1,7 +1,6 @@
 import About from "@/components/About"
 import { StickyScrollReveal } from "@/components/CTA/index";
-import { ColoredLine } from "@/components/ColoredLine";
-import { Contact } from "@/components/Contact";
+import Contact from "@/components/Contact";
 
 export default function about() {
     return <>
