@@ -63,7 +63,7 @@ export const HeroSection = ({
     
     <div
       ref={ref}
-      className="h-[175vh] md:h-[190vh] lg:h-[220vh] py-40 overflow-hidden antialiased relative flex flex-col self-auto perspective:1000px transform-style:preserve-3d"
+      className="h-[190vh] md:h-[210vh] lg:h-[240vh] py-40 overflow-hidden antialiased relative flex flex-col self-auto perspective:1000px transform-style:preserve-3d"
     >
   
       <Header />
