@@ -13,6 +13,7 @@ import { HeroSection } from "@/components/HeroSection/index";
 import { products } from "@/components/Data/ideas";
 import { Globe } from "@/components/Globe";
 import CustomCursor from '@/components/Common/CustomCursor';
+import HeroSection1 from "@/components/HeroSection/index1";
 
 export const metadata: Metadata = {
   title: "InventX",
@@ -23,9 +24,10 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main>
-      <div className=""> 
-        <HeroSection products={products}/>
-      </div>
+      <> 
+        {/* <HeroSection products={products}/> */}
+        <HeroSection1/>
+      </>
       <CustomCursor />
       {/* <Feature /> */}
       {/* <About /> */}

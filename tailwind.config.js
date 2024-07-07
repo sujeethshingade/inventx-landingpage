@@ -131,6 +131,8 @@ module.exports = {
       height: {
         "400": "400px",
         "600": "600px",
+        "800": "800px",
+        "650": "650px",
         "300": "300px",
         "200": "200px",
         "86": "22rem"
@@ -161,11 +163,22 @@ module.exports = {
             transform: "translate(calc(-50% - 0.5rem))",
           },
         },
+        spotlight: {
+          "0%": {
+            opacity: 0,
+            transform: "translate(-72%, -62%) scale(0.5)",
+          },
+          "100%": {
+            opacity: 1,
+            transform: "translate(-50%,-40%) scale(1)",
+          },
+        },
       },
       animation: {
         line1: "line 3s linear infinite",
         line2: "line 6s linear infinite",
         line3: "line 9s linear infinite",
+        spotlight: "spotlight 2s ease .75s 1 forwards",
         scroll:
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
       },
