@@ -31,8 +31,16 @@ export default function Home() {
       <CustomCursor />
       {/* <Feature /> */}
       {/* <About /> */}
-      <div className="p-8 md:p-12 lg:p-20"> 
-        <Globe/>
+      <div className="my-12 md:my-18 lg:my-36 mx-4"> 
+        {/* <h2 className="text-center text-xl md:text-4xl font-bold text-black dark:text-white">
+          Connect with alumni and investors across the globe    
+        </h2>
+        <p className="text-center text-base md:text-2xl font-normal text-black dark:text-white max-w-md mt-2 mx-auto ">
+          Discover, Invest and Innovate
+        </p> */}
+        <div className="flex justify-center items-center h-full w-full">
+          <Globe/>
+        </div>
       </div>
       {/* <CTA/> */}
       {/* <FeaturesTab /> */}

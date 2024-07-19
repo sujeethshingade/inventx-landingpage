@@ -17,7 +17,7 @@ export default function Header() {
 
     return (
       <>
-        <header className="top-0 z-[9999] bg-transparent">
+        <header className={`top-0 z-[9999] bg-transparent`}>
           <div className="w-screen h-14 bg-transparent flex justify-center items-center font-semibold lg:px-16 px-4 mt-5">
             <nav className="flex items-center w-full mr-12 lg:mx-16">
                 <div className="flex justify-between items-center w-full">
@@ -61,7 +61,7 @@ export default function Header() {
             </nav> 
           </div>
         </header>
-        <div className={`w-full h-full bg-white ${isOpen ? "lg:hidden" : "hidden"} overflow-y-hidden`}>
+        <div className={`bg-white ${isOpen ? "lg:hidden" : "hidden"} overflow-y-hidden`}>
             <HamMenu/>
         </div>
       </>

@@ -6,7 +6,7 @@ export default function Persona() {
       <div className="text-center text-2xl text-primary font-semibold pt-30">
         ALUMNI
       </div>
-      <Animated3D/>
+      {/* <Animated3D/> */}
     </>
   );
 }
