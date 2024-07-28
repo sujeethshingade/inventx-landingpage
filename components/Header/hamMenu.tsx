@@ -9,16 +9,16 @@ export const HamMenu = () => {
     const router = useRouter();
     const [ isOpen, setIsOpen ] = useRecoilState(HamMenuState);
 
-    const handleClick = (path) => {
-        setTimeout(() => { setIsOpen(!isOpen) }, 200);
+    const handleClick = (path: string) => {
         router.push(path);
+        setIsOpen(!isOpen);
     };
 
     return (
         <div className="">
             <div className="flex-col justify-between items-center text-black">
                 {menuData.map((item, index) => (
-                    <div key={item.path || index} className="m-8" onClick={() => handleClick(item.path)}>
+                    <div key={item.path || index} className="m-8" onClick={() => handleClick(item.path ?? "")}>
                         <span className="cursor-pointer text-black text-bold hover:text-primary">
                             { item.title }
                         </span>
