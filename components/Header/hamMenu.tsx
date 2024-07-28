@@ -10,9 +10,8 @@ export const HamMenu = () => {
     const [ isOpen, setIsOpen ] = useRecoilState(HamMenuState);
 
     const handleClick = (path) => {
-        const timeout = setTimeout(() => { setIsOpen(!isOpen) }, 200);
+        setTimeout(() => { setIsOpen(!isOpen) }, 200);
         router.push(path);
-        // clearTimeout(timeout);
     };
 
     return (
