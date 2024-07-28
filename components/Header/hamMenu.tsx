@@ -1,6 +1,6 @@
 'use client'
 
-import { useRouter } from "next/navigation"
+import { useRouter, redirect } from "next/navigation"
 import menuData from "./menuData"
 import { HamMenuState } from "@/store/HamMenu/atom";
 import { useRecoilState } from "recoil";
@@ -9,16 +9,16 @@ export const HamMenu = () => {
     const router = useRouter();
     const [ isOpen, setIsOpen ] = useRecoilState(HamMenuState);
 
-    const handleClick = (path: string) => {
-        router.push(path);
-        setIsOpen(!isOpen);
-    };
-
     return (
         <div className="">
             <div className="flex-col justify-between items-center text-black">
                 {menuData.map((item, index) => (
-                    <div key={item.path || index} className="m-8" onClick={() => handleClick(item.path ?? "")}>
+                    <div key={item.path || index} className="m-8" onClick={() => {
+                        router.push(item.path ?? "");
+                        setTimeout(() => {
+                            setIsOpen(!isOpen);
+                        }, 250);
+                    }}>
                         <span className="cursor-pointer text-black text-bold hover:text-primary">
                             { item.title }
                         </span>
