@@ -24,20 +24,14 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main>
-      <> 
+      <div className="md:mx-5 lg:mx-8 rounded-lg pt-5 pb-10 lg:pb-15 xl:pb-20"> 
         {/* <HeroSection products={products}/> */}
         <HeroSection1/>
-      </>
-      <CustomCursor />
+      </div>
+      {/* <CustomCursor /> */}
       {/* <Feature /> */}
       {/* <About /> */}
-      <div className="my-12 md:my-18 lg:my-36 mx-4"> 
-        {/* <h2 className="text-center text-xl md:text-4xl font-bold text-black dark:text-white">
-          Connect with alumni and investors across the globe    
-        </h2>
-        <p className="text-center text-base md:text-2xl font-normal text-black dark:text-white max-w-md mt-2 mx-auto ">
-          Discover, Invest and Innovate
-        </p> */}
+      <div className="py-10 lg:py-15 xl:py-20 mx-4"> 
         <div className="flex justify-center items-center h-full w-full">
           <Globe/>
         </div>
@@ -46,16 +40,18 @@ export default function Home() {
       {/* <FeaturesTab /> */}
       {/* <FunFact /> */}
       {/* <Integration /> */}
-      <div className="p-8 md:p-14 lg:p-24"> 
+      <div className="py-10 lg:py-15 xl:py-20"> 
         <Testimonial />
       </div>
       {/* <Pricing /> */}
       {/* <Contact /> */}
-      <div className="pb-8 md:p-14 lg:p-24"> 
+      <div className="py-10 lg:py-15 xl:py-20"> 
        {/* <LandingBlogCards/> */}
         <Blog/>
       </div>
-      <FAQ />
+      <div className="py-10 lg:py-15 xl:py-20"> 
+        <FAQ />
+      </div>
     </main>
   );
 }

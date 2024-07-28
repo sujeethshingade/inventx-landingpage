@@ -420,16 +420,16 @@ export function Globe() {
             }}
             className="div"
           >
-            <h2 className="text-center text-xl md:text-4xl font-bold text-transparent">
+            {/* <h2 className="text-center text-xl md:text-4xl font-bold text-transparent">
             Connect with alumni and investors across the globe    
-            </h2>
-            <p className="text-center text-base md:text-2xl font-normal text-transparent max-w-md mt-2 mx-auto ">
+            </h2> */}
+            {/* <p className="text-center text-base md:text-2xl font-normal text-transparent max-w-md mt-2 mx-auto ">
             Discover, Invest and Innovate
-            </p>
+            </p> */}
           </motion.div>
           <div className="absolute w-full bottom-0 inset-x-0 h-60 bg-gradient-to-b pointer-events-none select-none from-transparent dark:to-black to-white z-40 bg-transparent"/>
-          <div className="absolute w-full -bottom-20 h-full z-10">
-            <World data={sampleArcs} globeConfig={globeConfig} />;
+          <div className="absolute w-full -bottom-5 h-full z-10">
+            <World data={sampleArcs} globeConfig={globeConfig} />
           </div>
         </div>
       </div>

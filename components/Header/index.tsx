@@ -61,7 +61,7 @@ export default function Header() {
             </nav> 
           </div>
         </header>
-        <div className={`bg-white ${isOpen ? "lg:hidden" : "hidden"} overflow-y-hidden`}>
+        <div className={`bg-white h-full ${isOpen ? "lg:hidden" : "hidden"} overflow-y-hidden`}>
             <HamMenu/>
         </div>
       </>
