@@ -12,7 +12,7 @@ const BlogPage = async () => {
   return (
     <>
     {/* <!-- ===== Blog Title Start ===== --> */}
-      <section className="py-30">
+      <section className="pt-30 pb-15">
         <div className="mx-auto max-w-c-1280 px-4 md:px-8 xl:px-0">
           <h1 className="text-2xl text-primary font-semibold text-center">BLOGS</h1>
         </div>
