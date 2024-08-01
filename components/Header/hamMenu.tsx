@@ -17,7 +17,7 @@ export const HamMenu = () => {
                         router.push(item.path ?? "");
                         setTimeout(() => {
                             setIsOpen(!isOpen);
-                        }, 250);
+                        }, 400);
                     }}>
                         <span className="cursor-pointer text-black text-bold hover:text-primary">
                             { item.title }
